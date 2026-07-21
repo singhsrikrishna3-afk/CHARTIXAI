@@ -260,18 +260,40 @@ app.include_router(password_reset_router)
 
 @app.on_event("startup")
 async def _ensure_runtime_tables():
-    """Create tables that aren't managed by the (data-seeded) alembic history yet,
-    e.g. scan_history. checkfirst=True makes this a no-op when they exist."""
+    """Create all DB tables automatically on startup if missing, and seed admin user."""
     try:
         from app.database import async_engine
-        from app.models import ScanHistory, Fundamentals, UserPref, PaperTrade
+        from app.models.models import Base, User, Subscription
+        from app.auth import hash_password
+        from datetime import datetime, timedelta, timezone
         if async_engine is None:
             return
         async with async_engine.begin() as conn:
-            await conn.run_sync(lambda sc: ScanHistory.__table__.create(sc, checkfirst=True))
-            await conn.run_sync(lambda sc: Fundamentals.__table__.create(sc, checkfirst=True))
-            await conn.run_sync(lambda sc: UserPref.__table__.create(sc, checkfirst=True))
-            await conn.run_sync(lambda sc: PaperTrade.__table__.create(sc, checkfirst=True))
+            await conn.run_sync(Base.metadata.create_all)
+        
+        # Seed default admin user if database is fresh
+        from app.database import AsyncSessionLocal
+        async with AsyncSessionLocal() as session:
+            from sqlalchemy import select
+            res = await session.execute(select(User).where(User.email == "admin@peestocks.com"))
+            if not res.scalar_one_or_none():
+                admin = User(
+                    email="admin@peestocks.com",
+                    password_hash=hash_password("admin123"),
+                    full_name="Admin User",
+                    is_admin=True
+                )
+                session.add(admin)
+                await session.flush()
+                sub = Subscription(
+                    user_id=admin.id,
+                    tier="ai_eod_pro",
+                    status="active",
+                    starts_at=datetime.now(timezone.utc),
+                    expires_at=datetime.now(timezone.utc) + timedelta(days=3650)
+                )
+                session.add(sub)
+                await session.commit()
     except Exception as e:  # never block startup on this
         import logging
         logging.getLogger(__name__).warning("ensure_runtime_tables failed: %s", e)
