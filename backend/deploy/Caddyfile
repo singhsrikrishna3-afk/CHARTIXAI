@@ -1,0 +1,31 @@
+# Chartix API — automatic HTTPS via Caddy.
+# Replace api.chartix.in with your real subdomain. Caddy will fetch and renew a
+# Let's Encrypt certificate automatically as long as this subdomain's DNS A record
+# points at this server's public IP.
+#
+# Install: /opt/chartix/backend/deploy/DEPLOY.md step 6.
+# This file goes at /etc/caddy/Caddyfile — then: sudo systemctl reload caddy
+
+api.chartix.in {
+	encode zstd gzip
+
+	# Proxy everything to the FastAPI backend on localhost.
+	reverse_proxy 127.0.0.1:8010
+
+	# EOD history payloads are large; allow generous upload/stream sizes.
+	request_body {
+		max_size 25MB
+	}
+
+	# Basic hardening headers.
+	header {
+		-Server
+		Strict-Transport-Security "max-age=31536000; includeSubDomains"
+		X-Content-Type-Options "nosniff"
+		Referrer-Policy "no-referrer-when-downgrade"
+	}
+
+	log {
+		output file /var/log/caddy/chartix.log
+	}
+}

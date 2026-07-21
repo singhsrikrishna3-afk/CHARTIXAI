@@ -1,0 +1,23 @@
+[Unit]
+# OPTIONAL. Only enable this if you compute AI forecasts asynchronously via
+# Celery. Today forecasts are produced by running the scripts/train_forecast_*.py
+# scripts on demand, so you can skip this unit until you wire up async precompute.
+Description=Chartix Celery worker (async forecast precompute)
+After=network.target redis-server.service
+Wants=redis-server.service
+
+[Service]
+Type=simple
+User=chartix
+Group=chartix
+WorkingDirectory=/opt/chartix/backend
+EnvironmentFile=/opt/chartix/backend/.env
+ExecStart=/opt/chartix/backend/venv/bin/celery -A app.workers.celery_app worker --loglevel=info --concurrency=2
+Restart=always
+RestartSec=10
+MemoryMax=6G
+StandardOutput=append:/opt/chartix/backend/logs/worker.log
+StandardError=append:/opt/chartix/backend/logs/worker.log
+
+[Install]
+WantedBy=multi-user.target

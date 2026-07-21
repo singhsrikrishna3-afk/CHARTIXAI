@@ -1,0 +1,183 @@
+/* ═══════════════════════════════════════════════════════════
+   PEESTOCK — Trendlines / Auto S&R Scanner Styles
+   ═══════════════════════════════════════════════════════════ */
+
+.trendlinesPage { max-width: 1200px; }
+
+/* ── Header ──────────────────────────────────────────────── */
+.pageHeader {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+.pageTitle    { font-size: 1.5rem; font-weight: 800; margin-bottom: 4px; color: #000; }
+.pageSubtitle { font-size: 0.85rem; color: #555; }
+
+.triggerBtn {
+  padding: 8px 16px;
+  background: #0000CC;
+  color: #FFFFFF;
+  border: none;
+  font-size: 0.82rem;
+  font-weight: 700;
+  font-family: 'Tahoma', sans-serif;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.triggerBtn:hover { background: #0000AA; }
+.triggerBtn2 {
+  margin-top: 14px;
+  padding: 8px 20px;
+  background: #0000CC;
+  color: #FFFFFF;
+  border: none;
+  font-size: 0.82rem;
+  font-weight: 700;
+  font-family: 'Tahoma', sans-serif;
+  cursor: pointer;
+}
+
+/* ── Filter Bar ──────────────────────────────────────────── */
+.filterBar {
+  display: flex;
+  gap: 20px;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  padding: 14px 16px;
+  background: #FFFFFF;
+  border: 1px solid #C0C0C0;
+  margin-bottom: 16px;
+}
+.searchForm  { display: flex; gap: 6px; align-items: center; }
+.searchInput {
+  padding: 6px 10px;
+  border: 1px solid #808080;
+  font-size: 0.82rem;
+  font-family: 'Tahoma', sans-serif;
+  width: 180px;
+  background: #FFFFFF;
+}
+.searchInput:focus { outline: 2px solid #0000CC; border-color: #0000CC; }
+.searchBtn {
+  padding: 6px 14px;
+  background: #0000CC;
+  color: #FFFFFF;
+  border: none;
+  font-size: 0.8rem;
+  font-weight: 700;
+  font-family: 'Tahoma', sans-serif;
+  cursor: pointer;
+}
+.clearBtn {
+  padding: 6px 10px;
+  background: #F0F0F0;
+  border: 1px solid #808080;
+  font-size: 0.75rem;
+  cursor: pointer;
+  color: #333;
+}
+.filterGroup { display: flex; flex-direction: column; gap: 4px; }
+.filterLabel {
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #666;
+}
+.typeRow   { display: flex; gap: 0; }
+.typeBtn {
+  padding: 5px 12px;
+  background: #F0F0F0;
+  border: 1px solid #808080;
+  font-size: 0.75rem;
+  font-weight: 600;
+  font-family: 'Tahoma', sans-serif;
+  cursor: pointer;
+  color: #333;
+  margin-left: -1px;
+}
+.typeBtn:first-child { margin-left: 0; }
+.typeBtnActive { background: #0000CC; color: #FFFFFF; border-color: #0000CC; z-index: 1; position: relative; }
+
+/* ── S/R Badge on chart ──────────────────────────────────── */
+.srTypeBadge {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  padding: 2px 6px;
+  color: #FFFFFF;
+  font-size: 0.6rem;
+  font-weight: 700;
+  font-family: monospace;
+  letter-spacing: 0.06em;
+}
+
+/* ── Table view ──────────────────────────────────────────── */
+.tableWrap {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #C0C0C0;
+  overflow-x: auto;
+}
+.tableHead {
+  display: grid;
+  grid-template-columns: 100px 90px 90px 130px 130px 90px 80px 70px;
+  padding: 8px 12px;
+  background: #F0F0F0;
+  border-bottom: 2px solid #808080;
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: #555;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.tableRow {
+  display: grid;
+  grid-template-columns: 100px 90px 90px 130px 130px 90px 80px 70px;
+  padding: 9px 12px;
+  border-bottom: 1px solid #E8E8E8;
+  align-items: center;
+  font-size: 0.82rem;
+}
+.tableRow:hover { background: #F8F8F8; }
+
+.tSymbol { font-family: monospace; font-weight: 700; color: #0000CC; }
+.tMono   { font-family: monospace; font-size: 0.78rem; }
+.cellDate { font-size: 0.66rem; color: #888; display: block; }
+.tLink   { font-size: 0.75rem; font-weight: 700; color: #0000CC; text-decoration: none; }
+.tLink:hover { text-decoration: underline; }
+
+/* ── Empty State ─────────────────────────────────────────── */
+.emptyState {
+  text-align: center;
+  padding: 60px 24px;
+  color: #555;
+}
+.emptyIcon { font-size: 3rem; display: block; margin-bottom: 12px; }
+
+/* ── Skeleton ────────────────────────────────────────────── */
+.skeletonGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 8px;
+}
+.skeletonCard {
+  height: 180px;
+  background: linear-gradient(90deg, #F0F0F0 25%, #E8E8E8 50%, #F0F0F0 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  border: 1px solid #C0C0C0;
+}
+@keyframes shimmer {
+  0%   { background-position: -200% 0; }
+  100% { background-position:  200% 0; }
+}
+
+@media (max-width: 768px) {
+  .filterBar  { flex-direction: column; }
+  .pageHeader { flex-direction: column; }
+  .tableHead, .tableRow { grid-template-columns: 90px 80px 60px 100px 100px 80px 70px 60px; }
+}

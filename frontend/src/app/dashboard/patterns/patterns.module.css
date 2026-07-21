@@ -1,0 +1,329 @@
+/* ═══════════════════════════════════════════════════════════
+   PEESTOCK — Patterns Page Styles
+   ═══════════════════════════════════════════════════════════ */
+
+.patternsPage {
+  max-width: 1200px;
+}
+
+.pageHeader { margin-bottom: 24px; }
+.pageTitle { font-size: 1.6rem; font-weight: 800; margin-bottom: 4px; }
+.pageSubtitle { color: var(--text-secondary); font-size: 0.9rem; }
+
+/* ── Filters ──────────────────────────────────────────────── */
+.filtersBar {
+  display: flex;
+  gap: 16px;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+  padding: 16px 20px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+}
+.filterGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.filterLabel {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.filterSelect {
+  padding: 8px 12px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-default);
+  border-radius: var(--radius-sm);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.filterSelect:focus {
+  outline: none;
+  border-color: var(--accent-primary);
+}
+
+/* ── Results ──────────────────────────────────────────────── */
+.resultsSection { }
+.resultsHeader {
+  margin-bottom: 16px;
+}
+.resultsCount {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+/* ── Pattern Grid ────────────────────────────────────────── */
+.patternGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 16px;
+}
+.patternCard {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: 20px;
+  transition: all 0.3s var(--ease-smooth);
+}
+.patternCard:hover {
+  border-color: var(--border-accent);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-glow);
+}
+
+.cardHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.cardSymbol {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.cardIcon { font-size: 1.2rem; }
+.symbolLink {
+  font-family: var(--font-mono);
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--text-primary);
+  text-decoration: none;
+}
+.symbolLink:hover { color: var(--accent-secondary); }
+
+.cardType {
+  margin-bottom: 14px;
+}
+.bullish {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--accent-emerald);
+  text-transform: capitalize;
+}
+.bearish {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--accent-rose);
+  text-transform: capitalize;
+}
+
+.cardDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+.detailRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.detailLabel {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+.detailValue {
+  font-size: 0.82rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Confidence Bar */
+.confidenceBar {
+  width: 60px;
+  height: 6px;
+  background: var(--bg-secondary);
+  border-radius: var(--radius-full);
+  overflow: hidden;
+}
+.confidenceFill {
+  height: 100%;
+  border-radius: var(--radius-full);
+  transition: width 0.5s var(--ease-smooth);
+}
+
+.viewChartBtn {
+  width: 100%;
+  justify-content: center;
+  font-size: 0.82rem !important;
+  padding: 8px !important;
+}
+
+/* ── Empty State ─────────────────────────────────────────── */
+.emptyState {
+  text-align: center;
+  padding: 60px 24px;
+  color: var(--text-secondary);
+}
+.emptyIcon {
+  font-size: 3rem;
+  display: block;
+  margin-bottom: 12px;
+}
+
+/* ── Skeleton ────────────────────────────────────────────── */
+.gridSkeleton {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 16px;
+}
+.skeletonCard {
+  height: 220px;
+  background: linear-gradient(90deg, var(--bg-card) 25%, var(--bg-card-hover) 50%, var(--bg-card) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border-subtle);
+}
+
+@media (max-width: 768px) {
+  .patternGrid { grid-template-columns: 1fr; }
+  .filtersBar { flex-direction: column; }
+}
+
+/* ── Header update with trigger button ─────────────────── */
+.pageHeader {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.triggerScanBtn {
+  padding: 8px 16px;
+  background: #0000CC;
+  color: #FFFFFF;
+  border: none;
+  font-size: 0.82rem;
+  font-weight: 700;
+  font-family: var(--font-sans);
+  cursor: pointer;
+  white-space: nowrap;
+}
+.triggerScanBtn:hover { background: #0000AA; }
+.triggerScanBtn2 {
+  margin-top: 12px;
+  padding: 8px 20px;
+  background: #0000CC;
+  color: #FFFFFF;
+  border: none;
+  font-size: 0.82rem;
+  font-weight: 700;
+  font-family: var(--font-sans);
+  cursor: pointer;
+}
+
+/* ── Table view ──────────────────────────────────────────── */
+.tableWrap {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #C0C0C0;
+  overflow-x: auto;
+}
+.tableHead {
+  display: grid;
+  grid-template-columns: 100px 160px 120px 90px 80px 110px 110px 90px 70px;
+  padding: 8px 12px;
+  background: #F0F0F0;
+  border-bottom: 2px solid #808080;
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: #555;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.tableRow {
+  display: grid;
+  grid-template-columns: 100px 160px 120px 90px 80px 110px 110px 90px 70px;
+  padding: 9px 12px;
+  border-bottom: 1px solid #E8E8E8;
+  align-items: center;
+  font-size: 0.82rem;
+}
+.tableRow:hover { background: #F8F8F8; }
+.tSymbol { font-family: monospace; font-weight: 700; color: #0000CC; }
+.tConf   { font-family: monospace; color: #005500; font-weight: 700; }
+.tMono   { font-family: monospace; font-size: 0.78rem; }
+.tDate   { font-size: 0.75rem; color: #555; }
+.tLink   { font-size: 0.75rem; font-weight: 700; color: #0000CC; text-decoration: none; }
+.tLink:hover { text-decoration: underline; }
+
+/* Skeleton update */
+.gridSkeleton {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 8px;
+}
+.skeletonCard {
+  height: 180px;
+  background: linear-gradient(90deg, #F0F0F0 25%, #E8E8E8 50%, #F0F0F0 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  border: 1px solid #C0C0C0;
+}
+@keyframes shimmer {
+  0%   { background-position: -200% 0; }
+  100% { background-position:  200% 0; }
+}
+
+/* ── Confidence breakdown tooltip ────────────────────────── */
+.confWrap {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  cursor: help;
+  border-bottom: 1px dotted #999;
+}
+/* Positioned via inline style (fixed, JS-measured) since it's rendered
+   through a portal into document.body — see ConfidenceBadge in page.js.
+   That's what lets it escape .scan-result-card's overflow: hidden. */
+.confTooltip {
+  background: #FFFFFF;
+  border: 1px solid #B0B0B0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
+  padding: 8px 10px;
+  font-size: 0.7rem;
+  line-height: 1.5;
+  color: #333;
+  pointer-events: none;
+  z-index: 1000;
+}
+.confTooltipTitle {
+  font-weight: 700;
+  margin-bottom: 4px;
+  color: #000;
+  text-transform: none;
+}
+.confTooltipRow {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  white-space: nowrap;
+}
+.confTooltipRow span:last-child {
+  font-family: monospace;
+  font-weight: 700;
+}
+.confTooltipNote {
+  margin-top: 4px;
+  padding-top: 4px;
+  border-top: 1px solid #EEE;
+  color: #888;
+  font-style: italic;
+  white-space: normal;
+}
+

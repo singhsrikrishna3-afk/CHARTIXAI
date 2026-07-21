@@ -1,0 +1,29 @@
+SECURITY WARNING: JWT_SECRET is set to the insecure default value. Set JWT_SECRET in your .env file before going to production.
+loading history…
+  2088 instruments, 2137154 bars
+  156 evaluation dates (2023-02-28 → 2026-04-24)
+  [1/156] 2023-02-28  signals so far=85  elapsed=11s
+  [11/156] 2023-05-17  signals so far=1198  elapsed=29s
+  [21/156] 2023-07-27  signals so far=2720  elapsed=48s
+  [31/156] 2023-10-10  signals so far=4526  elapsed=67s
+  [41/156] 2023-12-22  signals so far=6067  elapsed=89s
+  [51/156] 2024-03-06  signals so far=7682  elapsed=112s
+  [61/156] 2024-05-24  signals so far=8838  elapsed=136s
+  [71/156] 2024-08-06  signals so far=10246  elapsed=160s
+  [81/156] 2024-10-17  signals so far=11774  elapsed=185s
+  [91/156] 2024-12-31  signals so far=12818  elapsed=208s
+  [101/156] 2025-03-11  signals so far=13401  elapsed=232s
+  [111/156] 2025-05-28  signals so far=14174  elapsed=255s
+  [121/156] 2025-08-06  signals so far=15773  elapsed=275s
+  [131/156] 2025-10-20  signals so far=17119  elapsed=297s
+  [141/156] 2026-01-01  signals so far=18363  elapsed=317s
+  [151/156] 2026-03-16  signals so far=19062  elapsed=338s
+
+=== BACKTEST RESULTS ===
+trades simulated: 18634   (took 350s)
+OVERALL   win-rate 42.6%   avg 0.09R   n=18634
+  Breakout               win  44.6%   avg +0.184R   n=2756
+  Pullback in uptrend    win  43.2%   avg +0.090R   n=11779
+  Oversold reversal      win  39.5%   avg +0.027R   n=4099
+
+wrote /Users/srikrishnasingh/AG1 BB/PEESTOCKS/backend/data/reco_backtest.json

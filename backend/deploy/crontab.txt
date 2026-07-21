@@ -1,0 +1,18 @@
+# Chartix cron — install with:  sudo -u chartix crontab /opt/chartix/backend/deploy/crontab.txt
+# IMPORTANT: set the server timezone to IST first so 18:30 means 18:30 India time:
+#   sudo timedatectl set-timezone Asia/Kolkata
+
+# Daily EOD sync — weekdays at 18:30 IST (after NSE close).
+30 18 * * 1-5 cd /opt/chartix/backend && /opt/chartix/backend/venv/bin/python scripts/daily_sync.py --days 5 >> logs/daily_sync.log 2>&1
+
+# Nightly database backup at 02:00.
+0 2 * * * /opt/chartix/backend/deploy/backup_db.sh >> /opt/chartix/backend/logs/backup.log 2>&1
+
+# Weekly earnings-calendar refresh (Earnings Shield) — Sunday 07:00.
+0 7 * * 0 cd /opt/chartix/backend && /opt/chartix/backend/venv/bin/python scripts/sync_earnings.py >> logs/earnings.log 2>&1
+
+# OPTIONAL: refresh the recommendation backtest table weekly (Sun 03:00).
+# 0 3 * * 0 cd /opt/chartix/backend && /opt/chartix/backend/venv/bin/python scripts/backtest_reco.py >> logs/backtest.log 2>&1
+
+# Alert engine — evaluates alerts + swing events, links & delivers Telegram (every 10 min).
+*/10 * * * * cd /opt/chartix/backend && /opt/chartix/backend/venv/bin/python scripts/check_alerts.py >> logs/alerts.log 2>&1

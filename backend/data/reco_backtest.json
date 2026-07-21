@@ -1,0 +1,273 @@
+{
+  "generated": "2026-07-17T04:39:28.656120+00:00",
+  "params": {
+    "sample_every": 5,
+    "max_hold": 40,
+    "breakout_fill": 10,
+    "win_def": "t1 (+1.5R) before stop (-1R)"
+  },
+  "window": {
+    "from": "2023-03-03",
+    "to": "2026-05-05",
+    "eval_dates": 160
+  },
+  "n_trades": 11859,
+  "overall": {
+    "n": 11859,
+    "wins": 7771,
+    "losses": 3978,
+    "timeouts": 110,
+    "win_rate": 65.5,
+    "avg_r": 0.145,
+    "avg_scale_r": 0.29
+  },
+  "by_setup": {
+    "Pullback in uptrend": {
+      "n": 9424,
+      "wins": 6267,
+      "losses": 3116,
+      "timeouts": 41,
+      "win_rate": 66.5,
+      "avg_r": 0.139,
+      "avg_scale_r": 0.294
+    },
+    "Breakout": {
+      "n": 1637,
+      "wins": 1042,
+      "losses": 540,
+      "timeouts": 55,
+      "win_rate": 63.7,
+      "avg_r": 0.213,
+      "avg_scale_r": 0.341
+    },
+    "Oversold reversal": {
+      "n": 798,
+      "wins": 462,
+      "losses": 322,
+      "timeouts": 14,
+      "win_rate": 57.9,
+      "avg_r": 0.081,
+      "avg_scale_r": 0.138
+    }
+  },
+  "by_setup_conf": {
+    "Pullback in uptrend|55-59": {
+      "n": 1642,
+      "wins": 1079,
+      "losses": 553,
+      "timeouts": 10,
+      "win_rate": 65.7,
+      "avg_r": 0.139,
+      "avg_scale_r": 0.282
+    },
+    "Breakout|60-69": {
+      "n": 558,
+      "wins": 327,
+      "losses": 211,
+      "timeouts": 20,
+      "win_rate": 58.6,
+      "avg_r": 0.092,
+      "avg_scale_r": 0.22
+    },
+    "Pullback in uptrend|70-79": {
+      "n": 2938,
+      "wins": 1987,
+      "losses": 944,
+      "timeouts": 7,
+      "win_rate": 67.6,
+      "avg_r": 0.183,
+      "avg_scale_r": 0.326
+    },
+    "Breakout|70-79": {
+      "n": 892,
+      "wins": 593,
+      "losses": 277,
+      "timeouts": 22,
+      "win_rate": 66.5,
+      "avg_r": 0.268,
+      "avg_scale_r": 0.399
+    },
+    "Pullback in uptrend|60-69": {
+      "n": 4733,
+      "wins": 3128,
+      "losses": 1581,
+      "timeouts": 24,
+      "win_rate": 66.1,
+      "avg_r": 0.113,
+      "avg_scale_r": 0.279
+    },
+    "Oversold reversal|70-79": {
+      "n": 150,
+      "wins": 86,
+      "losses": 63,
+      "timeouts": 1,
+      "win_rate": 57.3,
+      "avg_r": 0.076,
+      "avg_scale_r": 0.137
+    },
+    "Oversold reversal|60-69": {
+      "n": 473,
+      "wins": 270,
+      "losses": 196,
+      "timeouts": 7,
+      "win_rate": 57.1,
+      "avg_r": 0.059,
+      "avg_scale_r": 0.114
+    },
+    "Pullback in uptrend|80+": {
+      "n": 111,
+      "wins": 73,
+      "losses": 38,
+      "timeouts": 0,
+      "win_rate": 65.8,
+      "avg_r": 0.09,
+      "avg_scale_r": 0.246
+    },
+    "Oversold reversal|55-59": {
+      "n": 172,
+      "wins": 103,
+      "losses": 63,
+      "timeouts": 6,
+      "win_rate": 59.9,
+      "avg_r": 0.13,
+      "avg_scale_r": 0.2
+    },
+    "Breakout|80+": {
+      "n": 74,
+      "wins": 51,
+      "losses": 22,
+      "timeouts": 1,
+      "win_rate": 68.9,
+      "avg_r": 0.296,
+      "avg_scale_r": 0.349
+    },
+    "Breakout|55-59": {
+      "n": 113,
+      "wins": 71,
+      "losses": 30,
+      "timeouts": 12,
+      "win_rate": 62.8,
+      "avg_r": 0.317,
+      "avg_scale_r": 0.473
+    },
+    "Oversold reversal|80+": {
+      "n": 3,
+      "wins": 3,
+      "losses": 0,
+      "timeouts": 0,
+      "win_rate": 100.0,
+      "avg_r": 1.002,
+      "avg_scale_r": 0.501
+    }
+  },
+  "by_regime": {
+    "Pullback in uptrend|mixed": {
+      "n": 1708,
+      "wins": 1185,
+      "losses": 517,
+      "timeouts": 6,
+      "win_rate": 69.4,
+      "avg_r": 0.237,
+      "avg_scale_r": 0.443
+    },
+    "ALL|mixed": {
+      "n": 2128,
+      "wins": 1450,
+      "losses": 666,
+      "timeouts": 12,
+      "win_rate": 68.1,
+      "avg_r": 0.218,
+      "avg_scale_r": 0.401
+    },
+    "Breakout|mixed": {
+      "n": 246,
+      "wins": 166,
+      "losses": 78,
+      "timeouts": 2,
+      "win_rate": 67.5,
+      "avg_r": 0.197,
+      "avg_scale_r": 0.323
+    },
+    "Oversold reversal|mixed": {
+      "n": 174,
+      "wins": 99,
+      "losses": 71,
+      "timeouts": 4,
+      "win_rate": 56.9,
+      "avg_r": 0.057,
+      "avg_scale_r": 0.101
+    },
+    "Pullback in uptrend|bear": {
+      "n": 845,
+      "wins": 546,
+      "losses": 298,
+      "timeouts": 1,
+      "win_rate": 64.6,
+      "avg_r": -0.154,
+      "avg_scale_r": -0.021
+    },
+    "ALL|bear": {
+      "n": 1098,
+      "wins": 696,
+      "losses": 391,
+      "timeouts": 11,
+      "win_rate": 63.4,
+      "avg_r": -0.086,
+      "avg_scale_r": 0.042
+    },
+    "Oversold reversal|bear": {
+      "n": 126,
+      "wins": 83,
+      "losses": 42,
+      "timeouts": 1,
+      "win_rate": 65.9,
+      "avg_r": 0.245,
+      "avg_scale_r": 0.4
+    },
+    "Breakout|bear": {
+      "n": 127,
+      "wins": 67,
+      "losses": 51,
+      "timeouts": 9,
+      "win_rate": 52.8,
+      "avg_r": 0.044,
+      "avg_scale_r": 0.107
+    },
+    "Breakout|bull": {
+      "n": 1264,
+      "wins": 809,
+      "losses": 411,
+      "timeouts": 44,
+      "win_rate": 64.0,
+      "avg_r": 0.233,
+      "avg_scale_r": 0.368
+    },
+    "ALL|bull": {
+      "n": 8633,
+      "wins": 5625,
+      "losses": 2921,
+      "timeouts": 87,
+      "win_rate": 65.2,
+      "avg_r": 0.157,
+      "avg_scale_r": 0.294
+    },
+    "Pullback in uptrend|bull": {
+      "n": 6871,
+      "wins": 4536,
+      "losses": 2301,
+      "timeouts": 34,
+      "win_rate": 66.0,
+      "avg_r": 0.15,
+      "avg_scale_r": 0.295
+    },
+    "Oversold reversal|bull": {
+      "n": 498,
+      "wins": 280,
+      "losses": 209,
+      "timeouts": 9,
+      "win_rate": 56.2,
+      "avg_r": 0.048,
+      "avg_scale_r": 0.085
+    }
+  }
+}

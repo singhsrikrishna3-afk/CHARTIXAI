@@ -1,0 +1,1010 @@
+/* KeyStock Clone Layout - Obsidian Dark Mode Revamp */
+.keystockApp {
+  display: flex;
+  flex-direction: column;
+  /* Fill the dashboard content area: cancel the main's 24px padding. The
+     charts page renders full-bleed (no global top bar / ticker tape), so it
+     gets the entire viewport height. */
+  margin: -24px;
+  height: 100vh;
+  width: calc(100% + 48px);
+  background: var(--app-bg);
+  font-family: 'Segoe UI', Tahoma, Arial, sans-serif;
+  color: var(--text-color);
+  overflow: hidden;
+  font-size: 11px;
+
+  /* Theme variables (Light Theme Default) */
+  --app-bg: #F0F0F0;
+  --panel-bg: #FFFFFF;
+  --border-color: #A0A0A0;
+  --text-color: #000000;
+  --menu-bg: #FFFFFF;
+  --menu-hover: #E0E0E0;
+  --ma-bar-bg: #ECE9D8;
+  --list-item-hover: #000080;
+  --list-item-hover-text: #FFFFFF;
+  --bottom-tab-bg: #E4CDA2;
+  --bottom-tab-active-bg: #D0E8FF;
+  --bottom-tab-active-text: #000080;
+  --input-bg: #FFFFFF;
+  --input-border: #7F9DB9;
+}
+
+/* Dark Theme overrides matching TradingView Obsidian scheme */
+.keystockApp.darkMode {
+  --app-bg: #0f111a;
+  --panel-bg: #131722;
+  --border-color: #2a2e39;
+  --text-color: #d1d4dc;
+  --menu-bg: #1c2030;
+  --menu-hover: #2a2e39;
+  --ma-bar-bg: #1c2030;
+  --list-item-hover: #2962ff;
+  --list-item-hover-text: #FFFFFF;
+  --bottom-tab-bg: #1e222d;
+  --bottom-tab-active-bg: #2962ff;
+  --bottom-tab-active-text: #FFFFFF;
+  --input-bg: #1c2030;
+  --input-border: #363c4e;
+}
+
+/* Top bars */
+.titleBar {
+  background: var(--panel-bg);
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 8px;
+  font-size: 12px;
+  border-bottom: 1px solid var(--border-color);
+  color: var(--text-color);
+}
+.menuBar {
+  background: var(--panel-bg);
+  display: flex;
+  align-items: center;
+  padding: 4px 8px;
+  border-bottom: 1px solid var(--border-color);
+  gap: 4px;
+  row-gap: 3px;
+  color: var(--text-color);
+  /* wrap onto a second row instead of scrolling — a scroll container clips
+     dropdown menus (layout/scans/candles) and squashes the bar */
+  flex-wrap: wrap;
+  overflow: visible;
+  min-height: 42px;
+  position: relative;
+  z-index: 60;
+  /* In the chart column (Template A) the toolbar must keep its own height and
+     let the chart take the rest — never get squeezed by the flexbox. */
+  flex-shrink: 0;
+}
+.menuItem {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+  padding: 4px 7px;
+  border-radius: 6px;
+  font-size: 11.5px;
+  white-space: nowrap;
+  transition: background 0.12s ease;
+  user-select: none;
+}
+.menuItem:hover {
+  background: var(--menu-hover);
+}
+.iconBar {
+  background: var(--panel-bg);
+  display: flex;
+  align-items: center;
+  padding: 2px 4px;
+  border-bottom: 1px solid var(--border-color);
+  gap: 4px;
+  overflow-x: hidden;
+}
+.iconGroup {
+  display: flex;
+  gap: 2px;
+  border-right: 1px solid var(--border-color);
+  padding-right: 4px;
+}
+.blueIconBtn {
+  width: 22px;
+  height: 22px;
+  background: linear-gradient(to bottom, #FFFFFF, #B0C4DE);
+  border: 1px solid #4169E1;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 12px;
+  color: #000080;
+  font-weight: bold;
+}
+.blueIconBtn:hover {
+  background: #ADD8E6;
+}
+
+/* Buy / Sell pills */
+.buyBtn {
+  background: #089981;
+  color: #FFFFFF !important;
+  font-weight: bold;
+  padding: 3px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 11px;
+  user-select: none;
+}
+.buyBtn:hover {
+  background: #06806c;
+}
+.sellBtn {
+  background: #f23645;
+  color: #FFFFFF !important;
+  font-weight: bold;
+  padding: 3px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 11px;
+  user-select: none;
+}
+.sellBtn:hover {
+  background: #d82b39;
+}
+.themeToggleBtn {
+  cursor: pointer;
+  font-size: 15px;
+  padding: 2px 6px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+}
+.themeToggleBtn:hover {
+  background: var(--menu-hover);
+}
+
+/* Body */
+.mainBody {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+  background: var(--app-bg);
+}
+
+/* Extreme Left Timeframe Column */
+.extremeLeftCol {
+  width: 24px;
+  background: var(--app-bg);
+  border-right: 1px solid var(--border-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1px;
+  padding-top: 2px;
+}
+.timeBtn {
+  width: 20px;
+  height: 18px;
+  font-size: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--border-color);
+  background: var(--panel-bg);
+  cursor: pointer;
+  color: var(--text-color);
+}
+.timeBtn:hover {
+  background: var(--menu-hover);
+}
+
+/* Left Drawing Sidebar */
+.leftSidebar {
+  width: 28px;
+  background: var(--panel-bg);
+  border-right: 1px solid var(--border-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 4px;
+  gap: 2px;
+}
+
+/* Right Sidebar (Watchlist & Details) */
+.rightSidebar {
+  width: 260px;
+  background: var(--app-bg);
+  border-left: 1px solid var(--border-color);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+/* Single compact header row. Replaces three stacked rows (Main|Multiple Charts,
+   Sectors|Watchlist|Holidays, and a "Select Index/Sector" caption) that pushed
+   the stock list ~80px down the column before a single stock was visible. */
+.sideHeader {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 6px;
+  background: var(--app-bg);
+  border-bottom: 1px solid var(--border-color);
+  flex-shrink: 0;
+}
+.sideViewTabs {
+  display: flex;
+  flex: 1;
+  min-width: 0;
+  gap: 2px;
+}
+.sTabMini {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  padding: 4px 1px;
+  font-size: 10px;
+  font-family: inherit;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  background: var(--app-bg);
+  color: var(--text-color);
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.sTabMini:hover { background: var(--menu-hover); }
+.sTabMiniActive {
+  background: var(--panel-bg);
+  border-color: var(--accent-primary, #22d3ee);
+  font-weight: 700;
+}
+/* At 260px the three labels + the layout select don't all fit; the emoji keeps
+   each tab identifiable when the text is dropped. */
+.sTabMiniLabel {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.sideLayoutSelect {
+  flex-shrink: 0;
+  width: 48px;
+  padding: 4px 1px;
+  font-size: 10px;
+  font-family: inherit;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  background: var(--input-bg);
+  color: var(--text-color);
+  cursor: pointer;
+  outline: none;
+}
+
+.sidebarTabs {
+  display: flex;
+  font-size: 11px;
+  background: var(--app-bg);
+}
+.sTab {
+  flex: 1;
+  padding: 4px;
+  text-align: center;
+  border: 1px solid var(--border-color);
+  background: var(--app-bg);
+  color: var(--text-color);
+  cursor: pointer;
+}
+.sTabActive {
+  background: var(--panel-bg);
+  border-bottom: none;
+  font-weight: bold;
+}
+.videoBtns {
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.redBtn {
+  background: #D00000;
+  color: #FFFFFF;
+  border: 1px solid #A00000;
+  padding: 4px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 12px;
+  cursor: pointer;
+}
+.listBox {
+  flex: 1;
+  background: var(--panel-bg);
+  border: 1px solid var(--border-color);
+  margin: 0 4px 4px 4px;
+  overflow-y: auto;
+}
+.listItem {
+  padding: 4px 6px;
+  font-size: 11px;
+  cursor: pointer;
+  color: var(--text-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.listItem:hover, .listItemSelected {
+  background: var(--list-item-hover);
+  color: var(--list-item-hover-text);
+}
+/* The list is keyboard-driven, so it must show where focus is. */
+.listBox:focus {
+  outline: none;
+  border-color: var(--accent-primary, #22d3ee);
+}
+.listBox:focus .listItemSelected {
+  box-shadow: inset 2px 0 0 var(--accent-primary, #22d3ee);
+}
+
+/* Collapsible info sections under the list (fundamentals, delivery flow) */
+.sideAccordion {
+  margin: 0 8px 4px 8px;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  background: var(--panel-bg);
+  flex-shrink: 0;
+}
+.sideAccordionHead {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+  padding: 6px 8px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 11px;
+  font-weight: 700;
+  font-family: inherit;
+  color: var(--text-color);
+}
+.sideAccordionHead:hover { background: var(--menu-hover); }
+.sideAccordionChevron { opacity: 0.6; font-size: 9px; }
+.sideAccordionBody {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3px 10px;
+  padding: 2px 8px 8px 8px;
+  font-size: 11px;
+}
+/* Keys/values sit on one line each — the old two-column card wrapped
+   "Mkt Cap" and "Delivery %" onto two lines at this width. */
+.sideStatRow {
+  display: flex;
+  justify-content: space-between;
+  gap: 6px;
+  min-width: 0;
+}
+.sideStatKey {
+  color: #9aa4b2;
+  white-space: nowrap;
+}
+.sideStatVal {
+  color: var(--text-color);
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.sideAccordionNote {
+  grid-column: 1 / -1;
+  margin-top: 5px;
+  color: #9aa4b2;
+  font-size: 9px;
+  line-height: 1.4;
+}
+.sidebarDivider {
+  background: var(--app-bg);
+  padding: 4px;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  font-family: 'Georgia', serif;
+  font-style: italic;
+  font-weight: bold;
+  color: var(--text-color);
+}
+.sidebarLabel {
+  padding: 2px 8px;
+  font-size: 11px;
+  font-weight: bold;
+  color: var(--text-color);
+}
+
+/* One compact row: name · price · change. Was a two-line card with an
+   "INDEX (ACTIVE SECTOR)" caption that wrapped and wasted ~60px of the column. */
+.indexCard {
+  margin: 4px 8px;
+  padding: 7px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: 1px solid var(--border-color);
+  background: var(--panel-bg);
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  transition: background 0.15s ease, border-color 0.15s ease;
+}
+.indexCardName {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text-color);
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.indexCardPrice {
+  font-size: 13px;
+  font-weight: 800;
+  color: var(--text-color);
+  white-space: nowrap;
+}
+.indexCard:hover {
+  background: var(--menu-hover);
+  border-color: var(--list-item-hover);
+}
+.indexCardSelected {
+  border-color: var(--list-item-hover);
+  background: var(--menu-hover);
+}
+
+.constituentsHeader {
+  padding: 6px 10px 2px 10px;
+  font-size: 10px;
+  font-weight: bold;
+  opacity: 0.6;
+  letter-spacing: 0.5px;
+  display: flex;
+  justify-content: space-between;
+  color: var(--text-color);
+  text-transform: uppercase;
+}
+
+/* Details card bottom of watchlist */
+.detailsCard {
+  background: var(--panel-bg);
+  border-top: 1px solid var(--border-color);
+  padding: 8px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  color: var(--text-color);
+  font-family: 'Tahoma', sans-serif;
+}
+.detailsTitleRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.detailsSym {
+  font-size: 14px;
+  font-weight: bold;
+}
+.detailsName {
+  font-size: 10px;
+  opacity: 0.7;
+}
+.detailsPriceRow {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  margin: 2px 0;
+}
+.detailsLtp {
+  font-size: 18px;
+  font-weight: bold;
+}
+.detailsChg {
+  font-size: 11px;
+}
+.detailsGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4px 8px;
+  font-size: 10px;
+  margin-top: 4px;
+  border-top: 1px dotted var(--border-color);
+  padding-top: 4px;
+}
+.detailsItem {
+  display: flex;
+  justify-content: space-between;
+}
+.detailsItemLabel {
+  opacity: 0.6;
+}
+.detailsItemVal {
+  font-weight: bold;
+}
+
+/* Center Chart Area */
+.chartArea {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background: var(--panel-bg);
+  position: relative;
+  border-left: 1px solid var(--border-color);
+}
+/* One line, always. Being absolutely positioned with no width cap, this used to
+   wrap onto a second row over the candles and still spill off the right edge —
+   with ~6 MAs on it there is always more text than chart width. */
+.chartInfoText {
+  position: absolute;
+  top: 2px;
+  left: 6px;
+  right: 6px;
+  z-index: 10;
+  font-size: 11px;
+  color: var(--text-color);
+  pointer-events: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Drawing tools are now located on the left Sidebar */
+.drawIcon {
+  width: 20px;
+  height: 20px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  color: #333;
+}
+.drawIcon:hover {
+  border: 1px solid #A0A0A0;
+  background: #E0E0E0;
+}
+.drawIconActive {
+  border: 1px solid #0000FF !important;
+  background: #E0E0FF !important;
+  color: #0000FF !important;
+}
+
+/* Editable MA Bar */
+.maBar {
+  background: var(--ma-bar-bg);
+  border-top: 2px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  padding: 2px 6px;
+  gap: 6px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  min-height: 26px;
+  font-family: 'Tahoma', 'Arial', sans-serif;
+  font-size: 11px;
+  color: var(--text-color);
+  flex-shrink: 0;
+}
+.maBarLabel {
+  font-weight: bold;
+  color: var(--text-color);
+  white-space: nowrap;
+  font-size: 11px;
+  padding-right: 4px;
+  border-right: 1px solid var(--border-color);
+  margin-right: 2px;
+}
+.maBarRows {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+.maBarRow {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  background: var(--panel-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 2px;
+  padding: 1px 4px;
+}
+.maVisBtn {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 12px;
+  line-height: 1;
+  padding: 0 1px;
+  color: var(--text-color);
+  opacity: 0.7;
+}
+.maVisBtnOn  { color: #2962ff; opacity: 1; }
+.maVisBtnOff { color: #888888; opacity: 0.5; }
+.maColorLabel {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border: 1px solid var(--border-color);
+  cursor: pointer;
+  border-radius: 2px;
+  position: relative;
+  flex-shrink: 0;
+}
+.maTypeSelect {
+  font-size: 10px;
+  font-family: 'Tahoma', 'Arial', sans-serif;
+  border: 1px solid var(--border-color);
+  background: var(--input-bg);
+  padding: 0 2px;
+  height: 16px;
+  color: var(--text-color);
+  cursor: pointer;
+}
+.maPeriodInput {
+  width: 36px;
+  height: 16px;
+  font-size: 10px;
+  font-family: 'Tahoma', 'Arial', sans-serif;
+  border: 1px solid var(--border-color);
+  background: var(--input-bg);
+  text-align: center;
+  padding: 0 2px;
+  color: var(--text-color);
+}
+.maLineLabel {
+  font-size: 10px;
+  font-weight: bold;
+  white-space: nowrap;
+  min-width: 44px;
+}
+.maDeleteBtn {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 10px;
+  color: #f23645;
+  padding: 0 1px;
+  line-height: 1;
+}
+.maDeleteBtn:hover { color: #FF0000; }
+.maAddBtn {
+  background: #000080;
+  color: #FFFFFF;
+  border: 1px solid #000040;
+  padding: 1px 7px;
+  font-size: 10px;
+  font-family: 'Tahoma', 'Arial', sans-serif;
+  cursor: pointer;
+  white-space: nowrap;
+  box-shadow: inset 1px 1px 0 rgba(255,255,255,0.3);
+  flex-shrink: 0;
+}
+.maAddBtn:hover { background: #0000CC; }
+.maBarRight {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex-shrink: 0;
+}
+.maNavBtn {
+  background: #203b20;
+  color: #0f0;
+  border: 1px solid #000;
+  padding: 1px 6px;
+  font-size: 10px;
+  cursor: pointer;
+  font-family: monospace;
+}
+.maRiskBtn {
+  background: #000;
+  color: #FFF;
+  border: 1px solid #000;
+  padding: 2px 8px;
+  font-weight: bold;
+  font-size: 11px;
+  font-family: 'Tahoma', 'Arial', sans-serif;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+/* Classic Windows Dialog Modal */
+.modalOverlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+.winDialog {
+  background: var(--panel-bg);
+  border: 1px solid var(--border-color);
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+  display: flex;
+  flex-direction: column;
+  min-width: 600px;
+  font-family: 'Tahoma', 'Arial', sans-serif;
+  font-size: 11px;
+  color: var(--text-color);
+}
+.winTitleBar {
+  background: var(--border-color);
+  color: var(--text-color);
+  font-weight: bold;
+  padding: 6px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--border-color);
+}
+.winCloseBtn {
+  background: var(--menu-hover);
+  border: 1px solid var(--border-color);
+  color: var(--text-color);
+  font-size: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 2px 6px;
+  border-radius: 2px;
+}
+.winCloseBtn:active {
+  background: var(--border-color);
+}
+.winBody {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.winGroupBox {
+  border: 1px solid var(--border-color);
+  border-radius: 3px;
+  padding: 10px;
+  position: relative;
+}
+.winGroupBoxLegend {
+  position: absolute;
+  top: -8px;
+  left: 8px;
+  background: var(--panel-bg);
+  padding: 0 4px;
+  color: var(--text-color);
+  font-weight: bold;
+}
+.winRow {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 4px;
+}
+.winSelect, .winInput {
+  border: 1px solid var(--border-color);
+  background: var(--input-bg);
+  color: var(--text-color);
+  padding: 2px;
+  font-size: 11px;
+  font-family: 'Tahoma', 'Arial', sans-serif;
+}
+.winBtn {
+  background: var(--menu-hover);
+  border: 1px solid var(--border-color);
+  color: var(--text-color);
+  padding: 4px 12px;
+  cursor: pointer;
+  font-family: 'Tahoma', 'Arial', sans-serif;
+  font-size: 11px;
+  border-radius: 3px;
+}
+.winBtn:active {
+  background: var(--border-color);
+}
+.winTableContainer {
+  height: 200px;
+  overflow-y: auto;
+  border: 1px solid var(--border-color);
+  background: var(--panel-bg);
+}
+.winTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+.winTable th {
+  background: var(--menu-hover);
+  border: 1px solid var(--border-color);
+  padding: 4px;
+  position: sticky;
+  top: 0;
+  font-weight: bold;
+  text-align: left;
+}
+.winTable td {
+  border-bottom: 1px solid var(--border-color);
+  padding: 4px;
+}
+.winTable tr:hover {
+  background: var(--list-item-hover);
+  color: var(--list-item-hover-text);
+}
+
+/* Risk Calculator Specific */
+.riskCalcLabel {
+  display: inline-block;
+  width: 120px;
+  text-align: right;
+  margin-right: 8px;
+}
+.riskCalcResult {
+  background: #FFFFCC;
+  border: 1px solid #7F9DB9;
+  padding: 4px;
+  font-weight: bold;
+  text-align: center;
+  color: #8B0000;
+}
+
+/* Bottom Tab Bar */
+.bottomTabBar {
+  display: flex;
+  background: var(--bottom-tab-bg);
+  border-top: 1px solid var(--border-color);
+  height: 32px;
+  align-items: stretch;
+  overflow-x: auto;
+  overflow-y: hidden;
+  user-select: none;
+  scrollbar-width: thin;
+  gap: 2px;
+  padding: 3px 6px 0;
+}
+.bottomTabBar::-webkit-scrollbar {
+  height: 4px;
+}
+.bottomTabBar::-webkit-scrollbar-track {
+  background: var(--bottom-tab-bg);
+}
+.bottomTabBar::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+  border-radius: 2px;
+}
+.bottomTab {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 12px;
+  font-family: 'Inter', 'Segoe UI', 'Arial', sans-serif;
+  font-size: 11.5px;
+  border-radius: 7px 7px 0 0;
+  background: transparent;
+  color: var(--text-color);
+  opacity: 0.75;
+  cursor: pointer;
+  white-space: nowrap;
+  font-weight: 500;
+  transition: background 0.12s ease, opacity 0.12s ease;
+}
+.bottomTab:hover {
+  background: var(--menu-hover);
+  opacity: 1;
+}
+.bottomTabActive {
+  background: var(--bottom-tab-active-bg) !important;
+  color: var(--bottom-tab-active-text) !important;
+  font-weight: 600;
+  opacity: 1;
+}
+
+/* Retro Dropdown Menu Style */
+.dropdownMenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 9999;
+  background: var(--menu-bg);
+  border: 1px solid var(--border-color);
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.4);
+  padding: 2px;
+  min-width: 140px;
+  display: flex;
+  flex-direction: column;
+}
+.dropdownItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 8px;
+  cursor: pointer;
+  color: var(--text-color);
+  font-size: 11px;
+  text-align: left;
+}
+.dropdownItem:hover {
+  background: var(--list-item-hover);
+  color: var(--list-item-hover-text);
+}
+.dropdownActive {
+  background: var(--menu-hover);
+  font-weight: bold;
+}
+
+/* ── Holidays Styling ────────────────────────────────────── */
+.holidayRow {
+  transition: background-color 0.2s ease, opacity 0.2s ease;
+}
+.holidayRow:hover {
+  background-color: var(--list-item-hover);
+}
+.holidayRowToday {
+  background-color: rgba(8, 153, 129, 0.08);
+  border-left: 3px solid #089981 !important;
+}
+.holidayRowPast {
+  opacity: 0.45;
+}
+.holidayRowPast:hover {
+  opacity: 0.7;
+}
+.holidayRowUpcoming {
+  border-left: 3px solid transparent;
+}
+.syncBtn {
+  transition: opacity 0.2s ease;
+}
+.syncBtn:hover:not(:disabled) {
+  opacity: 0.8;
+}
+.spinning {
+  display: inline-block;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+/* Phones: the dashboard shell pads 12px (not 24) — keep full-bleed math in sync */
+@media (max-width: 768px) {
+  .keystockApp {
+    margin: -12px;
+    width: calc(100% + 24px);
+  }
+  /* clear the floating mobile ☰ button (fixed top-left, from the layout) */
+  .menuBar {
+    padding-left: 56px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* scan-results navigator: bottom-anchored on phones (the wrapped toolbar
+     occupies the top ~500px there) */
+  .scanNavPill {
+    top: auto !important;
+    bottom: 96px !important;
+    max-width: 96vw;
+  }
+}

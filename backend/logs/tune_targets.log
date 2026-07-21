@@ -1,0 +1,32 @@
+SECURITY WARNING: JWT_SECRET is set to the insecure default value. Set JWT_SECRET in your .env file before going to production.
+loading history…
+  2088 instruments
+  156 eval dates
+  [1/156] 2023-02-28 elapsed=9s
+  [21/156] 2023-07-27 elapsed=46s
+  [41/156] 2023-12-22 elapsed=89s
+  [61/156] 2024-05-24 elapsed=135s
+  [81/156] 2024-10-17 elapsed=184s
+  [101/156] 2025-03-11 elapsed=232s
+  [121/156] 2025-08-06 elapsed=275s
+  [141/156] 2026-01-01 elapsed=318s
+
+=== WIN-RATE BY FIRST TARGET (win = target before stop) ===
+bucket                              n  0.75R  1.0R  1.25R  1.5R
+overall                         20558  57.6  51.8  46.8  42.6
+Breakout                         3110  60.1  54.1  48.7  44.3
+Pullback in uptrend             13016  57.4  51.9  47.3  43.2
+Oversold reversal                4432  56.6  49.9  44.2  39.6
+Breakout|80+                       95  69.5  63.2  63.2  60.0
+Breakout|70-79                   1213  61.3  55.3  50.3  45.3
+Breakout|60-69                   1352  58.2  52.5  46.9  43.0
+Breakout|55-59                    450  60.9  53.6  46.7  42.0
+Pullback in uptrend|80+           143  54.5  48.3  46.9  42.7
+Pullback in uptrend|70-79        4004  55.7  50.5  46.3  41.9
+Pullback in uptrend|60-69        6553  58.2  52.6  47.7  43.8
+Pullback in uptrend|55-59        2316  58.2  52.8  47.6  43.7
+Oversold reversal|70-79           479  57.6  52.0  47.8  43.0
+Oversold reversal|60-69          2151  57.2  49.4  43.8  39.4
+Oversold reversal|55-59          1795  55.6  49.9  43.8  38.9
+
+(took 351s)

@@ -1,0 +1,995 @@
+2026-07-12 17:12:52 existing tunnel healthy — reusing https://salon-italia-fri-settings.trycloudflare.com
+2026-07-12 19:21:28 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-12 19:21:28 starting cloudflared tunnel
+2026-07-12 19:21:44 tunnel URL: 
+2026-07-12 19:22:44 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-12 19:22:44 starting cloudflared tunnel
+2026-07-12 19:23:00 tunnel URL: 
+2026-07-12 19:24:00 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-12 19:24:00 starting cloudflared tunnel
+2026-07-12 19:24:16 tunnel URL: 
+2026-07-12 19:25:16 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-12 19:25:16 starting cloudflared tunnel
+2026-07-12 19:25:33 tunnel URL: https://ind-ridge-permits-tax.trycloudflare.com
+2026-07-12 19:25:33 pointing Vercel at https://ind-ridge-permits-tax.trycloudflare.com and redeploying
+2026-07-12 19:25:40 redeploy triggered
+2026-07-12 20:24:45 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-12 20:24:45 starting cloudflared tunnel
+2026-07-12 20:25:01 tunnel URL: 
+2026-07-12 20:26:01 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-12 20:26:01 starting cloudflared tunnel
+2026-07-12 20:26:17 tunnel URL: https://bumper-gathered-spend-disabled.trycloudflare.com
+2026-07-12 20:26:17 pointing Vercel at https://bumper-gathered-spend-disabled.trycloudflare.com and redeploying
+2026-07-12 20:26:35 redeploy triggered
+2026-07-12 21:22:29 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-12 21:22:29 starting cloudflared tunnel
+2026-07-12 21:22:45 tunnel URL: 
+2026-07-12 21:23:45 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-12 21:23:45 starting cloudflared tunnel
+2026-07-12 21:24:01 tunnel URL: 
+2026-07-12 21:25:01 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-12 21:25:01 starting cloudflared tunnel
+2026-07-12 21:25:17 tunnel URL: 
+2026-07-12 21:26:18 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-12 21:26:18 starting cloudflared tunnel
+2026-07-12 21:26:34 tunnel URL: 
+2026-07-12 21:27:34 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-12 21:27:34 starting cloudflared tunnel
+2026-07-12 21:27:50 tunnel URL: 
+2026-07-12 21:28:50 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-12 21:28:50 starting cloudflared tunnel
+2026-07-12 21:29:06 tunnel URL: 
+2026-07-12 21:30:06 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-12 21:30:06 starting cloudflared tunnel
+2026-07-12 21:30:22 tunnel URL: 
+2026-07-12 21:31:22 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-12 21:31:22 starting cloudflared tunnel
+2026-07-12 21:31:38 tunnel URL: 
+2026-07-12 21:32:38 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-12 21:32:38 starting cloudflared tunnel
+2026-07-12 21:32:54 tunnel URL: 
+2026-07-12 21:33:55 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-12 21:33:55 starting cloudflared tunnel
+2026-07-12 21:34:11 tunnel URL: 
+2026-07-12 21:35:11 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-12 21:35:11 starting cloudflared tunnel
+2026-07-12 21:35:27 tunnel URL: 
+2026-07-12 21:36:27 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-12 21:36:27 starting cloudflared tunnel
+2026-07-12 21:36:43 tunnel URL: 
+2026-07-12 21:37:43 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-12 21:37:43 starting cloudflared tunnel
+2026-07-12 21:37:59 tunnel URL: 
+2026-07-12 21:38:59 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-12 21:38:59 starting cloudflared tunnel
+2026-07-12 21:39:15 tunnel URL: 
+2026-07-12 21:40:15 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-12 21:40:15 starting cloudflared tunnel
+2026-07-12 21:40:32 tunnel URL: 
+2026-07-12 21:41:32 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-12 21:41:32 starting cloudflared tunnel
+2026-07-12 21:41:48 tunnel URL: 
+2026-07-12 21:42:48 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-12 21:42:48 starting cloudflared tunnel
+2026-07-12 21:43:04 tunnel URL: 
+2026-07-12 21:44:04 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-12 21:44:04 starting cloudflared tunnel
+2026-07-12 21:44:20 tunnel URL: 
+2026-07-12 21:45:20 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-12 21:45:20 starting cloudflared tunnel
+2026-07-12 21:45:36 tunnel URL: 
+2026-07-12 21:46:36 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-12 21:46:36 starting cloudflared tunnel
+2026-07-12 21:46:52 tunnel URL: 
+2026-07-12 21:47:53 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-12 21:47:53 starting cloudflared tunnel
+2026-07-12 21:48:09 tunnel URL: 
+2026-07-12 21:49:09 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-12 21:49:09 starting cloudflared tunnel
+2026-07-12 21:49:25 tunnel URL: 
+2026-07-12 21:50:25 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-12 21:50:25 starting cloudflared tunnel
+2026-07-12 21:50:41 tunnel URL: 
+2026-07-12 21:51:41 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-12 21:51:41 starting cloudflared tunnel
+2026-07-12 21:51:57 tunnel URL: 
+2026-07-12 21:52:57 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-12 21:52:57 starting cloudflared tunnel
+2026-07-12 21:53:13 tunnel URL: 
+2026-07-12 21:58:44 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-12 21:58:44 starting cloudflared tunnel
+2026-07-12 21:59:00 tunnel URL: https://managing-bases-consent-psp.trycloudflare.com
+2026-07-12 21:59:00 pointing Vercel at https://managing-bases-consent-psp.trycloudflare.com and redeploying
+2026-07-12 21:59:08 redeploy triggered
+2026-07-12 22:34:41 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-12 22:34:41 starting cloudflared tunnel
+2026-07-12 22:34:57 tunnel URL: https://controversial-course-loose-christina.trycloudflare.com
+2026-07-12 22:34:57 pointing Vercel at https://controversial-course-loose-christina.trycloudflare.com and redeploying
+2026-07-12 22:35:06 redeploy triggered
+2026-07-13 00:07:50 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-13 00:07:50 starting cloudflared tunnel
+2026-07-13 00:08:06 tunnel URL: 
+2026-07-13 00:09:06 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-13 00:09:06 starting cloudflared tunnel
+2026-07-13 00:09:22 tunnel URL: https://links-imported-anaheim-tiffany.trycloudflare.com
+2026-07-13 00:09:22 pointing Vercel at https://links-imported-anaheim-tiffany.trycloudflare.com and redeploying
+2026-07-13 00:09:30 redeploy triggered
+2026-07-13 01:26:29 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-13 01:26:29 starting cloudflared tunnel
+2026-07-13 02:15:41 tunnel URL: 
+2026-07-13 05:18:54 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-13 05:18:54 starting cloudflared tunnel
+2026-07-13 05:43:17 tunnel URL: 
+2026-07-13 08:30:22 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-13 08:30:22 starting cloudflared tunnel
+2026-07-13 08:38:40 tunnel URL: 
+2026-07-13 08:39:40 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-13 08:39:40 starting cloudflared tunnel
+2026-07-13 08:39:56 tunnel URL: 
+2026-07-13 08:40:56 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-13 08:40:56 starting cloudflared tunnel
+2026-07-13 08:41:12 tunnel URL: 
+2026-07-13 08:42:12 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-13 08:42:12 starting cloudflared tunnel
+2026-07-13 08:42:28 tunnel URL: 
+2026-07-13 08:43:28 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-13 08:43:28 starting cloudflared tunnel
+2026-07-13 08:43:44 tunnel URL: 
+2026-07-13 08:44:44 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-13 08:44:44 starting cloudflared tunnel
+2026-07-13 08:45:00 tunnel URL: https://citizens-hint-enjoyed-signature.trycloudflare.com
+2026-07-13 08:45:00 pointing Vercel at https://citizens-hint-enjoyed-signature.trycloudflare.com and redeploying
+2026-07-13 08:45:09 redeploy triggered
+2026-07-13 09:13:53 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-13 09:13:53 starting cloudflared tunnel
+2026-07-13 09:14:09 tunnel URL: 
+2026-07-13 09:15:10 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-13 09:15:10 starting cloudflared tunnel
+2026-07-13 09:15:26 tunnel URL: https://save-usb-grab-nearby.trycloudflare.com
+2026-07-13 09:15:26 pointing Vercel at https://save-usb-grab-nearby.trycloudflare.com and redeploying
+2026-07-13 09:15:39 redeploy triggered
+2026-07-13 09:48:02 tunnel unhealthy (530, 2x) — restarting + rewiring Vercel
+2026-07-13 09:48:02 starting cloudflared tunnel
+2026-07-13 09:48:18 tunnel URL: https://servers-copied-mariah-pressing.trycloudflare.com
+2026-07-13 09:48:18 pointing Vercel at https://servers-copied-mariah-pressing.trycloudflare.com and redeploying
+2026-07-13 09:48:26 redeploy triggered
+2026-07-13 11:20:30 backend DOWN (2x) — restarting
+2026-07-13 11:20:30 starting backend on :8010
+2026-07-13 11:21:49 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-13 11:21:49 starting cloudflared tunnel
+2026-07-13 11:22:05 tunnel URL: https://chief-peak-others-ability.trycloudflare.com
+2026-07-13 11:22:05 pointing Vercel at https://chief-peak-others-ability.trycloudflare.com and redeploying
+2026-07-13 11:22:13 redeploy triggered
+2026-07-13 11:23:06 backend DOWN (2x) — restarting
+2026-07-13 11:23:06 starting backend on :8010
+2026-07-13 11:25:18 backend DOWN (2x) — restarting
+2026-07-13 11:25:18 starting backend on :8010
+2026-07-13 11:26:17 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-13 11:26:17 starting cloudflared tunnel
+2026-07-13 11:26:33 tunnel URL: 
+2026-07-13 11:27:26 backend DOWN (2x) — restarting
+2026-07-13 11:27:26 starting backend on :8010
+2026-07-13 11:28:32 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-13 11:28:32 starting cloudflared tunnel
+2026-07-13 11:28:48 tunnel URL: 
+2026-07-13 11:29:48 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-13 11:29:48 starting cloudflared tunnel
+2026-07-13 11:30:04 tunnel URL: 
+2026-07-13 11:31:04 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-13 11:31:04 starting cloudflared tunnel
+2026-07-13 11:31:20 tunnel URL: 
+2026-07-13 11:32:21 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-13 11:32:21 starting cloudflared tunnel
+2026-07-13 11:32:37 tunnel URL: 
+2026-07-13 11:33:37 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-13 11:33:37 starting cloudflared tunnel
+2026-07-13 11:33:53 tunnel URL: 
+2026-07-13 11:34:53 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-13 11:34:53 starting cloudflared tunnel
+2026-07-13 11:35:09 tunnel URL: 
+2026-07-13 11:36:09 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-13 11:36:09 starting cloudflared tunnel
+2026-07-13 11:36:25 tunnel URL: 
+2026-07-13 11:37:25 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-13 11:37:25 starting cloudflared tunnel
+2026-07-13 11:37:41 tunnel URL: 
+2026-07-13 11:38:41 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-13 11:38:41 starting cloudflared tunnel
+2026-07-13 11:38:58 tunnel URL: 
+2026-07-13 11:39:58 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-13 11:39:58 starting cloudflared tunnel
+2026-07-13 11:40:14 tunnel URL: 
+2026-07-13 11:41:14 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-13 11:41:14 starting cloudflared tunnel
+2026-07-13 11:41:30 tunnel URL: 
+2026-07-13 11:42:30 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-13 11:42:30 starting cloudflared tunnel
+2026-07-13 11:42:46 tunnel URL: 
+2026-07-13 11:43:46 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-13 11:43:46 starting cloudflared tunnel
+2026-07-13 11:44:02 tunnel URL: 
+2026-07-13 11:45:02 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-13 11:45:02 starting cloudflared tunnel
+2026-07-13 11:45:18 tunnel URL: https://sign-graphical-craps-magical.trycloudflare.com
+2026-07-13 11:45:18 pointing Vercel at https://sign-graphical-craps-magical.trycloudflare.com and redeploying
+2026-07-13 11:45:25 redeploy triggered
+2026-07-13 13:42:45 backend DOWN (2x) — restarting
+2026-07-13 13:42:45 starting backend on :8010
+2026-07-13 13:43:24 tunnel unhealthy (502, 2x) — restarting + rewiring Vercel
+2026-07-13 13:43:24 starting cloudflared tunnel
+2026-07-13 13:43:40 tunnel URL: https://rachel-alarm-uncertainty-cordless.trycloudflare.com
+2026-07-13 13:43:40 pointing Vercel at https://rachel-alarm-uncertainty-cordless.trycloudflare.com and redeploying
+2026-07-13 13:43:47 redeploy triggered
+2026-07-13 16:08:40 tunnel unhealthy (530, 2x) — restarting + rewiring Vercel
+2026-07-13 16:08:40 starting cloudflared tunnel
+2026-07-13 16:23:56 tunnel URL: https://pioneer-control-translated-realistic.trycloudflare.com
+2026-07-13 16:23:56 pointing Vercel at https://pioneer-control-translated-realistic.trycloudflare.com and redeploying
+2026-07-13 16:24:04 redeploy triggered
+2026-07-13 16:25:04 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-13 16:25:04 starting cloudflared tunnel
+2026-07-13 16:25:20 tunnel URL: https://strength-sign-muscle-gerald.trycloudflare.com
+2026-07-13 16:25:20 pointing Vercel at https://strength-sign-muscle-gerald.trycloudflare.com and redeploying
+2026-07-13 16:25:27 redeploy triggered
+2026-07-13 17:52:53 tunnel unhealthy (530, 2x) — restarting + rewiring Vercel
+2026-07-13 17:52:53 starting cloudflared tunnel
+2026-07-13 17:53:09 tunnel URL: https://glass-tournament-philosophy-entrepreneur.trycloudflare.com
+2026-07-13 17:53:09 pointing Vercel at https://glass-tournament-philosophy-entrepreneur.trycloudflare.com and redeploying
+2026-07-13 17:53:16 redeploy triggered
+2026-07-13 18:39:16 tunnel unhealthy (530, 2x) — restarting + rewiring Vercel
+2026-07-13 18:39:16 starting cloudflared tunnel
+2026-07-13 18:39:32 tunnel URL: https://charged-gain-senators-wanna.trycloudflare.com
+2026-07-13 18:39:32 pointing Vercel at https://charged-gain-senators-wanna.trycloudflare.com and redeploying
+2026-07-13 18:39:39 redeploy triggered
+2026-07-13 18:56:24 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-13 18:56:24 starting cloudflared tunnel
+2026-07-13 18:56:41 tunnel URL: https://constitutional-univ-petersburg-strong.trycloudflare.com
+2026-07-13 18:56:41 pointing Vercel at https://constitutional-univ-petersburg-strong.trycloudflare.com and redeploying
+2026-07-13 18:56:48 redeploy triggered
+2026-07-13 23:22:05 tunnel unhealthy (530, 2x) — restarting + rewiring Vercel
+2026-07-13 23:22:05 starting cloudflared tunnel
+2026-07-13 23:22:21 tunnel URL: https://him-takes-observation-pension.trycloudflare.com
+2026-07-13 23:22:21 pointing Vercel at https://him-takes-observation-pension.trycloudflare.com and redeploying
+2026-07-13 23:22:28 redeploy triggered
+2026-07-13 23:56:30 tunnel unhealthy (530, 2x) — restarting + rewiring Vercel
+2026-07-13 23:56:30 starting cloudflared tunnel
+2026-07-13 23:56:46 tunnel URL: https://rankings-evaluation-cancellation-rip.trycloudflare.com
+2026-07-13 23:56:46 pointing Vercel at https://rankings-evaluation-cancellation-rip.trycloudflare.com and redeploying
+2026-07-13 23:56:54 redeploy triggered
+2026-07-14 00:12:56 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-14 00:12:56 starting cloudflared tunnel
+2026-07-14 00:28:29 tunnel URL: https://attorney-urls-designer-categories.trycloudflare.com
+2026-07-14 00:28:29 pointing Vercel at https://attorney-urls-designer-categories.trycloudflare.com and redeploying
+2026-07-14 00:28:37 redeploy triggered
+2026-07-14 00:46:07 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-14 00:46:07 starting cloudflared tunnel
+2026-07-14 00:46:23 tunnel URL: https://stretch-continued-robert-moderators.trycloudflare.com
+2026-07-14 00:46:23 pointing Vercel at https://stretch-continued-robert-moderators.trycloudflare.com and redeploying
+2026-07-14 01:21:15 redeploy triggered
+2026-07-14 01:37:34 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-14 01:37:34 starting cloudflared tunnel
+2026-07-14 01:52:58 tunnel URL: 
+2026-07-14 02:10:00 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-14 02:10:00 starting cloudflared tunnel
+2026-07-14 02:10:16 tunnel URL: https://administrative-species-des-commodity.trycloudflare.com
+2026-07-14 02:10:16 pointing Vercel at https://administrative-species-des-commodity.trycloudflare.com and redeploying
+2026-07-14 02:10:24 redeploy triggered
+2026-07-14 02:43:20 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-14 02:43:20 starting cloudflared tunnel
+2026-07-14 02:43:36 tunnel URL: https://silent-seemed-retail-cycle.trycloudflare.com
+2026-07-14 02:43:36 pointing Vercel at https://silent-seemed-retail-cycle.trycloudflare.com and redeploying
+2026-07-14 02:43:44 redeploy triggered
+2026-07-14 03:01:05 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-14 03:01:05 starting cloudflared tunnel
+2026-07-14 03:01:21 tunnel URL: https://suburban-now-dee-rhode.trycloudflare.com
+2026-07-14 03:01:21 pointing Vercel at https://suburban-now-dee-rhode.trycloudflare.com and redeploying
+2026-07-14 03:01:29 redeploy triggered
+2026-07-14 03:33:06 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-14 03:33:06 starting cloudflared tunnel
+2026-07-14 03:33:22 tunnel URL: https://scoop-string-integrate-arizona.trycloudflare.com
+2026-07-14 03:33:22 pointing Vercel at https://scoop-string-integrate-arizona.trycloudflare.com and redeploying
+2026-07-14 03:33:29 redeploy triggered
+2026-07-14 04:05:18 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-14 04:05:18 starting cloudflared tunnel
+2026-07-14 04:05:35 tunnel URL: https://checkout-tribute-goto-rejected.trycloudflare.com
+2026-07-14 04:05:35 pointing Vercel at https://checkout-tribute-goto-rejected.trycloudflare.com and redeploying
+2026-07-14 04:05:42 redeploy triggered
+2026-07-14 04:21:47 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-14 04:21:47 starting cloudflared tunnel
+2026-07-14 04:37:03 tunnel URL: 
+2026-07-14 04:38:03 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-14 04:38:03 starting cloudflared tunnel
+2026-07-14 04:38:19 tunnel URL: https://participated-smith-ala-foot.trycloudflare.com
+2026-07-14 04:38:19 pointing Vercel at https://participated-smith-ala-foot.trycloudflare.com and redeploying
+2026-07-14 04:38:27 redeploy triggered
+2026-07-14 04:54:40 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-14 04:54:40 starting cloudflared tunnel
+2026-07-14 05:00:14 tunnel URL: https://belfast-artificial-brake-plate.trycloudflare.com
+2026-07-14 05:00:14 pointing Vercel at https://belfast-artificial-brake-plate.trycloudflare.com and redeploying
+2026-07-14 05:00:20 redeploy triggered
+2026-07-14 05:22:33 tunnel unhealthy (530, 2x) — restarting + rewiring Vercel
+2026-07-14 05:22:33 starting cloudflared tunnel
+2026-07-14 05:25:15 tunnel URL: 
+2026-07-14 05:43:36 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-14 05:43:36 starting cloudflared tunnel
+2026-07-14 05:43:52 tunnel URL: https://engaging-intl-scope-reef.trycloudflare.com
+2026-07-14 05:43:52 pointing Vercel at https://engaging-intl-scope-reef.trycloudflare.com and redeploying
+2026-07-14 05:59:48 redeploy triggered
+2026-07-14 06:16:50 tunnel unhealthy (530, 2x) — restarting + rewiring Vercel
+2026-07-14 06:16:50 starting cloudflared tunnel
+2026-07-14 06:17:06 tunnel URL: https://shadows-select-traditions-shelter.trycloudflare.com
+2026-07-14 06:17:06 pointing Vercel at https://shadows-select-traditions-shelter.trycloudflare.com and redeploying
+2026-07-14 06:17:13 redeploy triggered
+2026-07-14 06:50:53 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-14 06:50:53 starting cloudflared tunnel
+2026-07-14 06:51:09 tunnel URL: https://submitting-grip-ballet-parental.trycloudflare.com
+2026-07-14 06:51:09 pointing Vercel at https://submitting-grip-ballet-parental.trycloudflare.com and redeploying
+2026-07-14 06:51:17 redeploy triggered
+2026-07-14 07:18:18 tunnel unhealthy (530, 2x) — restarting + rewiring Vercel
+2026-07-14 07:18:18 starting cloudflared tunnel
+2026-07-14 07:18:34 tunnel URL: https://arnold-normal-spa-loops.trycloudflare.com
+2026-07-14 07:18:34 pointing Vercel at https://arnold-normal-spa-loops.trycloudflare.com and redeploying
+2026-07-14 07:18:41 redeploy triggered
+2026-07-14 07:35:59 tunnel unhealthy (530, 2x) — restarting + rewiring Vercel
+2026-07-14 07:35:59 starting cloudflared tunnel
+2026-07-14 07:52:05 tunnel URL: 
+2026-07-14 08:02:23 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-14 08:02:23 starting cloudflared tunnel
+2026-07-14 08:02:39 tunnel URL: https://prices-powder-skiing-wearing.trycloudflare.com
+2026-07-14 08:02:39 pointing Vercel at https://prices-powder-skiing-wearing.trycloudflare.com and redeploying
+2026-07-14 08:02:47 redeploy triggered
+2026-07-14 08:35:24 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-14 08:35:24 starting cloudflared tunnel
+2026-07-14 08:35:40 tunnel URL: https://consists-nickel-ide-machine.trycloudflare.com
+2026-07-14 08:35:40 pointing Vercel at https://consists-nickel-ide-machine.trycloudflare.com and redeploying
+2026-07-14 08:35:47 redeploy triggered
+2026-07-14 08:52:19 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-14 08:52:19 starting cloudflared tunnel
+2026-07-14 08:52:36 tunnel URL: https://bookmarks-sacred-fare-liable.trycloudflare.com
+2026-07-14 08:52:36 pointing Vercel at https://bookmarks-sacred-fare-liable.trycloudflare.com and redeploying
+2026-07-14 09:03:29 redeploy triggered
+2026-07-14 16:30:37 tunnel unhealthy (530, 2x) — restarting + rewiring Vercel
+2026-07-14 16:30:37 starting cloudflared tunnel
+2026-07-14 17:01:44 tunnel URL: 
+2026-07-14 17:54:46 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-14 17:54:46 starting cloudflared tunnel
+2026-07-14 17:55:02 tunnel URL: https://relevant-region-reason-workforce.trycloudflare.com
+2026-07-14 17:55:02 pointing Vercel at https://relevant-region-reason-workforce.trycloudflare.com and redeploying
+2026-07-14 17:55:10 redeploy triggered
+2026-07-14 20:23:51 tunnel unhealthy (530, 2x) — restarting + rewiring Vercel
+2026-07-14 20:23:51 starting cloudflared tunnel
+2026-07-14 20:24:07 tunnel URL: https://heated-reviewer-forests-solutions.trycloudflare.com
+2026-07-14 20:24:07 pointing Vercel at https://heated-reviewer-forests-solutions.trycloudflare.com and redeploying
+2026-07-14 20:24:15 redeploy triggered
+2026-07-14 23:11:31 tunnel unhealthy (530, 2x) — restarting + rewiring Vercel
+2026-07-14 23:11:31 starting cloudflared tunnel
+2026-07-14 23:11:47 tunnel URL: https://compensation-pride-marker-expanding.trycloudflare.com
+2026-07-14 23:11:47 pointing Vercel at https://compensation-pride-marker-expanding.trycloudflare.com and redeploying
+2026-07-14 23:11:55 redeploy triggered
+2026-07-14 23:24:07 tunnel unhealthy (530, 2x) — restarting + rewiring Vercel
+2026-07-14 23:24:07 starting cloudflared tunnel
+2026-07-14 23:24:23 tunnel URL: https://lives-cleared-potential-societies.trycloudflare.com
+2026-07-14 23:24:23 pointing Vercel at https://lives-cleared-potential-societies.trycloudflare.com and redeploying
+2026-07-14 23:24:30 redeploy triggered
+2026-07-15 01:15:41 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-15 01:15:41 starting cloudflared tunnel
+2026-07-15 01:22:00 tunnel URL: 
+2026-07-15 03:54:23 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-15 03:54:23 starting cloudflared tunnel
+2026-07-15 04:26:38 tunnel URL: 
+2026-07-15 04:28:28 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-15 04:28:28 starting cloudflared tunnel
+2026-07-15 05:00:25 tunnel URL: 
+2026-07-15 05:19:06 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-15 05:19:06 starting cloudflared tunnel
+2026-07-15 05:20:12 tunnel URL: https://defensive-pie-secret-signals.trycloudflare.com
+2026-07-15 05:20:12 pointing Vercel at https://defensive-pie-secret-signals.trycloudflare.com and redeploying
+2026-07-15 05:20:46 redeploy triggered
+2026-07-15 05:37:39 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-15 05:37:39 starting cloudflared tunnel
+2026-07-15 06:10:06 tunnel URL: 
+2026-07-15 06:12:21 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-15 06:12:21 starting cloudflared tunnel
+2026-07-15 06:28:52 tunnel URL: 
+2026-07-15 06:59:55 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-15 06:59:55 starting cloudflared tunnel
+2026-07-15 07:00:36 tunnel URL: https://developer-aka-exist-chambers.trycloudflare.com
+2026-07-15 07:00:36 pointing Vercel at https://developer-aka-exist-chambers.trycloudflare.com and redeploying
+2026-07-15 07:00:43 redeploy triggered
+2026-07-15 08:20:51 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-15 08:20:51 starting cloudflared tunnel
+2026-07-15 08:38:32 tunnel URL: https://performer-champion-associate-lands.trycloudflare.com
+2026-07-15 08:38:32 pointing Vercel at https://performer-champion-associate-lands.trycloudflare.com and redeploying
+2026-07-15 08:54:25 redeploy triggered
+2026-07-15 10:23:07 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-15 10:23:07 starting cloudflared tunnel
+2026-07-15 10:23:23 tunnel URL: https://seattle-able-instances-protecting.trycloudflare.com
+2026-07-15 10:23:23 pointing Vercel at https://seattle-able-instances-protecting.trycloudflare.com and redeploying
+2026-07-15 10:23:30 redeploy triggered
+2026-07-15 10:40:46 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-15 10:40:46 starting cloudflared tunnel
+2026-07-15 11:23:52 tunnel URL: 
+2026-07-15 11:41:05 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-15 11:41:05 starting cloudflared tunnel
+2026-07-15 11:41:21 tunnel URL: https://evident-schemes-attitudes-consciousness.trycloudflare.com
+2026-07-15 11:41:21 pointing Vercel at https://evident-schemes-attitudes-consciousness.trycloudflare.com and redeploying
+2026-07-15 11:41:29 redeploy triggered
+2026-07-15 14:25:47 tunnel unhealthy (530, 2x) — restarting + rewiring Vercel
+2026-07-15 14:25:47 starting cloudflared tunnel
+2026-07-15 14:26:03 tunnel URL: https://withdrawal-wiki-lotus-already.trycloudflare.com
+2026-07-15 14:26:03 pointing Vercel at https://withdrawal-wiki-lotus-already.trycloudflare.com and redeploying
+2026-07-15 18:05:27 redeploy triggered
+2026-07-15 18:06:27 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-15 18:06:27 starting cloudflared tunnel
+2026-07-15 18:06:43 tunnel URL: Binary file /Users/srikrishnasingh/AG1 BB/PEESTOCKS/backend/logs/tunnel_keepalive.log matches
+2026-07-15 18:06:43 pointing Vercel at Binary file /Users/srikrishnasingh/AG1 BB/PEESTOCKS/backend/logs/tunnel_keepalive.log matches and redeploying
+2026-07-15 18:06:50 redeploy triggered
+2026-07-15 18:07:51 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-15 18:07:51 starting cloudflared tunnel
+2026-07-15 18:08:07 tunnel URL: https://poem-regulated-win-preferences.trycloudflare.com
+2026-07-15 18:08:07 pointing Vercel at https://poem-regulated-win-preferences.trycloudflare.com and redeploying
+2026-07-15 18:08:14 redeploy triggered
+2026-07-15 22:25:06 tunnel unhealthy (530, 2x) — restarting + rewiring Vercel
+2026-07-15 22:25:06 starting cloudflared tunnel
+2026-07-15 22:55:02 tunnel URL: 
+2026-07-15 22:56:02 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-15 22:56:02 starting cloudflared tunnel
+2026-07-15 22:56:19 tunnel URL: https://horizontal-consoles-webmasters-obtain.trycloudflare.com
+2026-07-15 22:56:19 pointing Vercel at https://horizontal-consoles-webmasters-obtain.trycloudflare.com and redeploying
+2026-07-15 22:56:26 redeploy triggered
+2026-07-15 23:39:42 tunnel unhealthy (530, 2x) — restarting + rewiring Vercel
+2026-07-15 23:39:42 starting cloudflared tunnel
+2026-07-15 23:39:59 tunnel URL: https://management-retain-comparing-spec.trycloudflare.com
+2026-07-15 23:39:59 pointing Vercel at https://management-retain-comparing-spec.trycloudflare.com and redeploying
+2026-07-15 23:40:07 redeploy triggered
+2026-07-15 23:56:47 tunnel unhealthy (530, 2x) — restarting + rewiring Vercel
+2026-07-15 23:56:47 starting cloudflared tunnel
+2026-07-15 23:57:03 tunnel URL: https://presenting-buf-connection-website.trycloudflare.com
+2026-07-15 23:57:03 pointing Vercel at https://presenting-buf-connection-website.trycloudflare.com and redeploying
+2026-07-15 23:57:12 redeploy triggered
+2026-07-16 00:10:06 tunnel unhealthy (530, 2x) — restarting + rewiring Vercel
+2026-07-16 00:10:06 starting cloudflared tunnel
+2026-07-16 00:10:23 tunnel URL: 
+2026-07-16 00:11:23 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-16 00:11:23 starting cloudflared tunnel
+2026-07-16 00:11:39 tunnel URL: https://boats-bras-venice-bloomberg.trycloudflare.com
+2026-07-16 00:11:39 pointing Vercel at https://boats-bras-venice-bloomberg.trycloudflare.com and redeploying
+2026-07-16 00:11:46 redeploy triggered
+2026-07-16 00:21:06 tunnel unhealthy (530, 2x) — restarting + rewiring Vercel
+2026-07-16 00:21:06 starting cloudflared tunnel
+2026-07-16 00:21:22 tunnel URL: https://agent-victorian-workers-agricultural.trycloudflare.com
+2026-07-16 00:21:22 pointing Vercel at https://agent-victorian-workers-agricultural.trycloudflare.com and redeploying
+2026-07-16 00:21:30 redeploy triggered
+2026-07-16 01:22:30 tunnel unhealthy (530, 2x) — restarting + rewiring Vercel
+2026-07-16 01:22:30 starting cloudflared tunnel
+2026-07-16 01:22:46 tunnel URL: https://proxy-casting-try-compiled.trycloudflare.com
+2026-07-16 01:22:46 pointing Vercel at https://proxy-casting-try-compiled.trycloudflare.com and redeploying
+2026-07-16 01:22:53 redeploy triggered
+2026-07-16 01:56:25 tunnel unhealthy (530, 2x) — restarting + rewiring Vercel
+2026-07-16 01:56:25 starting cloudflared tunnel
+2026-07-16 01:56:41 tunnel URL: https://pavilion-happiness-distinguished-antarctica.trycloudflare.com
+2026-07-16 01:56:41 pointing Vercel at https://pavilion-happiness-distinguished-antarctica.trycloudflare.com and redeploying
+2026-07-16 01:56:49 redeploy triggered
+2026-07-16 02:31:27 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-16 02:31:27 starting cloudflared tunnel
+2026-07-16 02:31:43 tunnel URL: https://parallel-nottingham-buried-toxic.trycloudflare.com
+2026-07-16 02:31:43 pointing Vercel at https://parallel-nottingham-buried-toxic.trycloudflare.com and redeploying
+2026-07-16 02:31:51 redeploy triggered
+2026-07-16 03:06:44 tunnel unhealthy (530, 2x) — restarting + rewiring Vercel
+2026-07-16 03:06:44 starting cloudflared tunnel
+2026-07-16 03:07:00 tunnel URL: https://proposition-wherever-cables-phrases.trycloudflare.com
+2026-07-16 03:07:00 pointing Vercel at https://proposition-wherever-cables-phrases.trycloudflare.com and redeploying
+2026-07-16 03:07:07 redeploy triggered
+2026-07-16 03:40:24 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-16 03:40:24 starting cloudflared tunnel
+2026-07-16 03:40:40 tunnel URL: https://biographies-champions-understanding-endif.trycloudflare.com
+2026-07-16 03:40:40 pointing Vercel at https://biographies-champions-understanding-endif.trycloudflare.com and redeploying
+2026-07-16 03:40:48 redeploy triggered
+2026-07-16 03:58:51 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-16 03:58:51 starting cloudflared tunnel
+2026-07-16 04:15:56 tunnel URL: https://expense-furnished-yields-bag.trycloudflare.com
+2026-07-16 04:15:56 pointing Vercel at https://expense-furnished-yields-bag.trycloudflare.com and redeploying
+2026-07-16 04:16:11 redeploy triggered
+2026-07-16 04:32:59 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-16 04:32:59 starting cloudflared tunnel
+2026-07-16 04:33:15 tunnel URL: https://april-municipality-artist-seasonal.trycloudflare.com
+2026-07-16 04:33:15 pointing Vercel at https://april-municipality-artist-seasonal.trycloudflare.com and redeploying
+2026-07-16 04:33:23 redeploy triggered
+2026-07-16 05:07:37 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-16 05:07:37 starting cloudflared tunnel
+2026-07-16 05:07:53 tunnel URL: https://description-scores-board-graphics.trycloudflare.com
+2026-07-16 05:07:53 pointing Vercel at https://description-scores-board-graphics.trycloudflare.com and redeploying
+2026-07-16 05:08:00 redeploy triggered
+2026-07-16 05:20:32 tunnel unhealthy (530, 2x) — restarting + rewiring Vercel
+2026-07-16 05:20:32 starting cloudflared tunnel
+2026-07-16 05:20:48 tunnel URL: https://peripherals-partition-lease-montreal.trycloudflare.com
+2026-07-16 05:20:48 pointing Vercel at https://peripherals-partition-lease-montreal.trycloudflare.com and redeploying
+2026-07-16 05:20:56 redeploy triggered
+2026-07-16 05:37:54 tunnel unhealthy (530, 2x) — restarting + rewiring Vercel
+2026-07-16 05:37:54 starting cloudflared tunnel
+2026-07-16 05:53:44 tunnel URL: https://nascar-should-maritime-existed.trycloudflare.com
+2026-07-16 05:53:44 pointing Vercel at https://nascar-should-maritime-existed.trycloudflare.com and redeploying
+2026-07-16 05:53:52 redeploy triggered
+2026-07-16 06:11:21 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-16 06:11:21 starting cloudflared tunnel
+2026-07-16 06:11:37 tunnel URL: https://handling-zope-owned-using.trycloudflare.com
+2026-07-16 06:11:37 pointing Vercel at https://handling-zope-owned-using.trycloudflare.com and redeploying
+2026-07-16 06:44:01 redeploy triggered
+2026-07-16 07:00:39 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-16 07:00:39 starting cloudflared tunnel
+2026-07-16 07:17:39 tunnel URL: 
+2026-07-16 07:21:07 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-16 07:21:07 starting cloudflared tunnel
+2026-07-16 07:21:23 tunnel URL: https://achieve-improving-applies-reno.trycloudflare.com
+2026-07-16 07:21:23 pointing Vercel at https://achieve-improving-applies-reno.trycloudflare.com and redeploying
+2026-07-16 07:38:58 redeploy triggered
+2026-07-16 07:56:31 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-16 07:56:31 starting cloudflared tunnel
+2026-07-16 07:56:47 tunnel URL: https://abilities-drilling-considered-susan.trycloudflare.com
+2026-07-16 07:56:47 pointing Vercel at https://abilities-drilling-considered-susan.trycloudflare.com and redeploying
+2026-07-16 07:56:55 redeploy triggered
+2026-07-16 08:13:06 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-16 08:13:06 starting cloudflared tunnel
+2026-07-16 08:21:51 tunnel URL: https://muze-frankfurt-belief-testimonials.trycloudflare.com
+2026-07-16 08:21:51 pointing Vercel at https://muze-frankfurt-belief-testimonials.trycloudflare.com and redeploying
+2026-07-16 08:21:59 redeploy triggered
+2026-07-16 08:38:06 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-16 08:38:06 starting cloudflared tunnel
+2026-07-16 08:54:00 tunnel URL: https://lonely-swimming-organisation-starsmerchant.trycloudflare.com
+2026-07-16 08:54:00 pointing Vercel at https://lonely-swimming-organisation-starsmerchant.trycloudflare.com and redeploying
+2026-07-16 08:54:07 redeploy triggered
+2026-07-16 09:07:51 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-16 09:07:51 starting cloudflared tunnel
+2026-07-16 09:08:07 tunnel URL: https://dsc-ideal-item-earned.trycloudflare.com
+2026-07-16 09:08:07 pointing Vercel at https://dsc-ideal-item-earned.trycloudflare.com and redeploying
+2026-07-16 09:23:05 redeploy triggered
+2026-07-16 09:24:05 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-16 09:24:05 starting cloudflared tunnel
+2026-07-16 09:24:21 tunnel URL: https://eagles-races-considerable-though.trycloudflare.com
+2026-07-16 09:24:21 pointing Vercel at https://eagles-races-considerable-though.trycloudflare.com and redeploying
+2026-07-16 09:24:28 redeploy triggered
+2026-07-16 16:15:34 tunnel unhealthy (530, 2x) — restarting + rewiring Vercel
+2026-07-16 16:15:34 starting cloudflared tunnel
+2026-07-16 16:15:50 tunnel URL: https://inter-ignored-lat-scheme.trycloudflare.com
+2026-07-16 16:15:50 pointing Vercel at https://inter-ignored-lat-scheme.trycloudflare.com and redeploying
+2026-07-16 16:15:58 redeploy triggered
+2026-07-16 16:34:34 tunnel unhealthy (530, 2x) — restarting + rewiring Vercel
+2026-07-16 16:34:34 starting cloudflared tunnel
+2026-07-16 16:34:50 tunnel URL: https://mario-beginning-pin-dam.trycloudflare.com
+2026-07-16 16:34:50 pointing Vercel at https://mario-beginning-pin-dam.trycloudflare.com and redeploying
+2026-07-16 16:34:58 redeploy triggered
+2026-07-16 17:13:17 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-16 17:13:17 starting cloudflared tunnel
+2026-07-16 17:30:50 tunnel URL: https://kilometers-competitive-upload-eventually.trycloudflare.com
+2026-07-16 17:30:50 pointing Vercel at https://kilometers-competitive-upload-eventually.trycloudflare.com and redeploying
+2026-07-16 17:32:52 redeploy triggered
+2026-07-16 18:06:37 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-16 18:06:37 starting cloudflared tunnel
+2026-07-16 18:23:10 tunnel URL: 
+2026-07-16 19:39:57 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-16 19:39:57 starting cloudflared tunnel
+2026-07-16 19:52:24 tunnel URL: 
+2026-07-16 20:26:59 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-16 20:26:59 starting cloudflared tunnel
+2026-07-16 20:28:30 tunnel URL: https://power-moore-seek-oriental.trycloudflare.com
+2026-07-16 20:28:30 pointing Vercel at https://power-moore-seek-oriental.trycloudflare.com and redeploying
+2026-07-16 20:48:14 redeploy triggered
+2026-07-16 21:23:37 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-16 21:23:37 starting cloudflared tunnel
+2026-07-16 21:25:08 tunnel URL: 
+2026-07-16 21:47:15 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-16 21:47:15 starting cloudflared tunnel
+2026-07-16 21:47:31 tunnel URL: https://locale-truth-stories-vessels.trycloudflare.com
+2026-07-16 21:47:31 pointing Vercel at https://locale-truth-stories-vessels.trycloudflare.com and redeploying
+2026-07-16 21:47:39 redeploy triggered
+2026-07-17 01:21:34 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-17 01:21:34 starting cloudflared tunnel
+2026-07-17 01:59:36 tunnel URL: 
+2026-07-17 03:05:39 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-17 03:05:39 starting cloudflared tunnel
+2026-07-17 03:06:45 tunnel URL: https://housewives-endorsed-gis-found.trycloudflare.com
+2026-07-17 03:06:45 pointing Vercel at https://housewives-endorsed-gis-found.trycloudflare.com and redeploying
+2026-07-17 03:07:47 redeploy triggered
+2026-07-17 03:45:48 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-17 03:45:48 starting cloudflared tunnel
+2026-07-17 03:47:19 tunnel URL: https://stranger-automatically-semiconductor-ref.trycloudflare.com
+2026-07-17 03:47:19 pointing Vercel at https://stranger-automatically-semiconductor-ref.trycloudflare.com and redeploying
+2026-07-17 03:47:26 redeploy triggered
+2026-07-17 04:25:26 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-17 04:25:26 starting cloudflared tunnel
+2026-07-17 04:26:32 tunnel URL: https://findings-poll-secondary-observer.trycloudflare.com
+2026-07-17 04:26:32 pointing Vercel at https://findings-poll-secondary-observer.trycloudflare.com and redeploying
+2026-07-17 04:27:33 redeploy triggered
+2026-07-17 05:06:49 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-17 05:06:49 starting cloudflared tunnel
+2026-07-17 05:25:03 tunnel URL: https://begun-formed-occupational-algorithm.trycloudflare.com
+2026-07-17 05:25:03 pointing Vercel at https://begun-formed-occupational-algorithm.trycloudflare.com and redeploying
+2026-07-17 05:25:37 redeploy triggered
+2026-07-17 06:59:15 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-17 06:59:15 starting cloudflared tunnel
+2026-07-17 07:48:37 tunnel URL: 
+2026-07-17 09:31:57 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-17 09:31:57 starting cloudflared tunnel
+2026-07-17 09:48:43 tunnel URL: https://anybody-potato-dicke-stored.trycloudflare.com
+2026-07-17 09:48:43 pointing Vercel at https://anybody-potato-dicke-stored.trycloudflare.com and redeploying
+2026-07-17 09:48:51 redeploy triggered
+2026-07-17 14:23:39 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-17 14:23:39 starting cloudflared tunnel
+2026-07-17 14:36:28 tunnel URL: 
+2026-07-17 14:37:29 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-17 14:37:29 starting cloudflared tunnel
+2026-07-17 14:37:45 tunnel URL: https://totals-cemetery-gathered-corner.trycloudflare.com
+2026-07-17 14:37:45 pointing Vercel at https://totals-cemetery-gathered-corner.trycloudflare.com and redeploying
+2026-07-17 14:37:52 redeploy triggered
+2026-07-17 16:43:35 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-17 16:43:35 starting cloudflared tunnel
+2026-07-17 16:43:51 tunnel URL: 
+2026-07-17 16:44:51 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-17 16:44:51 starting cloudflared tunnel
+2026-07-17 16:45:08 tunnel URL: 
+2026-07-17 16:46:08 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-17 16:46:08 starting cloudflared tunnel
+2026-07-17 16:46:24 tunnel URL: 
+2026-07-17 16:47:24 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-17 16:47:24 starting cloudflared tunnel
+2026-07-17 16:47:40 tunnel URL: https://continental-pink-businesses-inn.trycloudflare.com
+2026-07-17 16:47:40 pointing Vercel at https://continental-pink-businesses-inn.trycloudflare.com and redeploying
+2026-07-17 16:48:17 redeploy triggered
+2026-07-17 17:11:56 tunnel unhealthy (530, 2x) — restarting + rewiring Vercel
+2026-07-17 17:11:56 starting cloudflared tunnel
+2026-07-17 17:12:12 tunnel URL: https://tuesday-podcast-weed-basename.trycloudflare.com
+2026-07-17 17:12:12 pointing Vercel at https://tuesday-podcast-weed-basename.trycloudflare.com and redeploying
+2026-07-17 18:50:26 redeploy triggered
+2026-07-17 20:07:26 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-17 20:07:26 starting cloudflared tunnel
+2026-07-17 20:07:43 tunnel URL: Binary file /Users/srikrishnasingh/AG1 BB/PEESTOCKS/backend/logs/tunnel_keepalive.log matches
+2026-07-17 20:07:43 pointing Vercel at Binary file /Users/srikrishnasingh/AG1 BB/PEESTOCKS/backend/logs/tunnel_keepalive.log matches and redeploying
+2026-07-17 20:10:53 redeploy triggered
+2026-07-17 20:11:53 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-17 20:11:53 starting cloudflared tunnel
+2026-07-17 20:12:09 tunnel URL: https://medication-silly-perfume-talks.trycloudflare.com
+2026-07-17 20:12:09 pointing Vercel at https://medication-silly-perfume-talks.trycloudflare.com and redeploying
+2026-07-17 20:12:16 redeploy triggered
+2026-07-18 00:20:12 tunnel unhealthy (530, 2x) — restarting + rewiring Vercel
+2026-07-18 00:20:12 starting cloudflared tunnel
+2026-07-18 00:20:53 tunnel URL: https://reflects-tender-placing-concerning.trycloudflare.com
+2026-07-18 00:20:53 pointing Vercel at https://reflects-tender-placing-concerning.trycloudflare.com and redeploying
+2026-07-18 00:21:00 redeploy triggered
+2026-07-18 01:09:15 tunnel unhealthy (530, 2x) — restarting + rewiring Vercel
+2026-07-18 01:09:15 starting cloudflared tunnel
+2026-07-18 01:25:43 tunnel URL: 
+2026-07-18 01:32:56 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-18 01:32:56 starting cloudflared tunnel
+2026-07-18 01:33:12 tunnel URL: https://different-tradition-accessory-supports.trycloudflare.com
+2026-07-18 01:33:12 pointing Vercel at https://different-tradition-accessory-supports.trycloudflare.com and redeploying
+2026-07-18 01:33:19 redeploy triggered
+2026-07-18 01:53:24 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-18 01:53:24 starting cloudflared tunnel
+2026-07-18 01:53:40 tunnel URL: https://sig-oldest-demonstrated-screw.trycloudflare.com
+2026-07-18 01:53:40 pointing Vercel at https://sig-oldest-demonstrated-screw.trycloudflare.com and redeploying
+2026-07-18 01:53:47 redeploy triggered
+2026-07-18 04:52:57 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-18 04:52:57 starting cloudflared tunnel
+2026-07-18 05:29:21 tunnel URL: 
+2026-07-18 06:40:39 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-18 06:40:39 starting cloudflared tunnel
+2026-07-18 06:40:56 tunnel URL: https://variations-extensions-allan-printing.trycloudflare.com
+2026-07-18 06:40:56 pointing Vercel at https://variations-extensions-allan-printing.trycloudflare.com and redeploying
+2026-07-18 07:13:01 redeploy triggered
+2026-07-18 08:05:48 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-18 08:05:48 starting cloudflared tunnel
+2026-07-18 08:44:15 tunnel URL: 
+2026-07-18 08:45:15 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-18 08:45:15 starting cloudflared tunnel
+2026-07-18 08:45:31 tunnel URL: https://heaven-expenditure-turbo-changelog.trycloudflare.com
+2026-07-18 08:45:31 pointing Vercel at https://heaven-expenditure-turbo-changelog.trycloudflare.com and redeploying
+2026-07-18 08:45:38 redeploy triggered
+2026-07-18 12:12:50 tunnel unhealthy (530, 2x) — restarting + rewiring Vercel
+2026-07-18 12:12:50 starting cloudflared tunnel
+2026-07-18 12:13:06 tunnel URL: https://wants-flavor-paris-food.trycloudflare.com
+2026-07-18 12:13:06 pointing Vercel at https://wants-flavor-paris-food.trycloudflare.com and redeploying
+2026-07-18 12:13:14 redeploy triggered
+2026-07-18 16:08:51 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-18 16:08:51 starting cloudflared tunnel
+2026-07-18 16:09:07 tunnel URL: https://survive-law-elect-aircraft.trycloudflare.com
+2026-07-18 16:09:07 pointing Vercel at https://survive-law-elect-aircraft.trycloudflare.com and redeploying
+2026-07-18 16:09:15 redeploy triggered
+2026-07-18 16:26:11 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-18 16:26:11 starting cloudflared tunnel
+2026-07-18 16:38:25 tunnel URL: https://accordingly-identifier-geology-changelog.trycloudflare.com
+2026-07-18 16:38:25 pointing Vercel at https://accordingly-identifier-geology-changelog.trycloudflare.com and redeploying
+2026-07-18 18:17:32 redeploy triggered
+2026-07-18 18:40:28 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-18 18:40:28 starting cloudflared tunnel
+2026-07-18 18:40:44 tunnel URL: https://walked-bar-hart-workplace.trycloudflare.com
+2026-07-18 18:40:44 pointing Vercel at https://walked-bar-hart-workplace.trycloudflare.com and redeploying
+2026-07-18 18:40:51 redeploy triggered
+2026-07-18 19:37:08 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-18 19:37:08 starting cloudflared tunnel
+2026-07-18 19:38:39 tunnel URL: https://districts-suffered-gained-reminder.trycloudflare.com
+2026-07-18 19:38:39 pointing Vercel at https://districts-suffered-gained-reminder.trycloudflare.com and redeploying
+2026-07-18 19:59:08 redeploy triggered
+2026-07-18 20:49:22 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-18 20:49:22 starting cloudflared tunnel
+2026-07-18 20:49:38 tunnel URL: 
+2026-07-18 20:50:38 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-18 20:50:38 starting cloudflared tunnel
+2026-07-18 20:50:54 tunnel URL: 
+2026-07-18 20:51:55 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-18 20:51:55 starting cloudflared tunnel
+2026-07-18 20:52:11 tunnel URL: 
+2026-07-18 20:53:11 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-18 20:53:11 starting cloudflared tunnel
+2026-07-18 20:53:27 tunnel URL: 
+2026-07-18 20:54:27 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-18 20:54:27 starting cloudflared tunnel
+2026-07-18 20:54:43 tunnel URL: https://seems-korea-phys-hall.trycloudflare.com
+2026-07-18 20:54:43 pointing Vercel at https://seems-korea-phys-hall.trycloudflare.com and redeploying
+2026-07-18 20:54:51 redeploy triggered
+2026-07-18 23:41:10 tunnel unhealthy (530, 2x) — restarting + rewiring Vercel
+2026-07-18 23:41:11 starting cloudflared tunnel
+2026-07-18 23:41:27 tunnel URL: https://helmet-prix-disclosure-continually.trycloudflare.com
+2026-07-18 23:41:27 pointing Vercel at https://helmet-prix-disclosure-continually.trycloudflare.com and redeploying
+2026-07-18 23:41:35 redeploy triggered
+2026-07-19 00:58:52 tunnel unhealthy (530, 2x) — restarting + rewiring Vercel
+2026-07-19 00:58:52 starting cloudflared tunnel
+2026-07-19 00:59:08 tunnel URL: https://supporting-heater-atlas-lay.trycloudflare.com
+2026-07-19 00:59:08 pointing Vercel at https://supporting-heater-atlas-lay.trycloudflare.com and redeploying
+2026-07-19 00:59:16 redeploy triggered
+2026-07-19 03:08:07 tunnel unhealthy (530, 2x) — restarting + rewiring Vercel
+2026-07-19 03:08:07 starting cloudflared tunnel
+2026-07-19 03:08:23 tunnel URL: https://press-harvey-nec-creatures.trycloudflare.com
+2026-07-19 03:08:23 pointing Vercel at https://press-harvey-nec-creatures.trycloudflare.com and redeploying
+2026-07-19 03:08:31 redeploy triggered
+2026-07-19 04:40:42 tunnel unhealthy (530, 2x) — restarting + rewiring Vercel
+2026-07-19 04:40:42 starting cloudflared tunnel
+2026-07-19 04:40:58 tunnel URL: https://reached-raise-sign-fin.trycloudflare.com
+2026-07-19 04:40:58 pointing Vercel at https://reached-raise-sign-fin.trycloudflare.com and redeploying
+2026-07-19 04:41:06 redeploy triggered
+2026-07-19 07:16:22 tunnel unhealthy (530, 2x) — restarting + rewiring Vercel
+2026-07-19 07:16:22 starting cloudflared tunnel
+2026-07-19 07:26:50 tunnel URL: 
+2026-07-19 07:27:50 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-19 07:27:50 starting cloudflared tunnel
+2026-07-19 07:28:07 tunnel URL: https://staff-bedding-represents-strength.trycloudflare.com
+2026-07-19 07:28:07 pointing Vercel at https://staff-bedding-represents-strength.trycloudflare.com and redeploying
+2026-07-19 07:28:14 redeploy triggered
+2026-07-19 08:21:32 tunnel unhealthy (530, 2x) — restarting + rewiring Vercel
+2026-07-19 08:21:32 starting cloudflared tunnel
+2026-07-19 08:21:48 tunnel URL: https://proceed-analyses-anti-mhz.trycloudflare.com
+2026-07-19 08:21:48 pointing Vercel at https://proceed-analyses-anti-mhz.trycloudflare.com and redeploying
+2026-07-19 08:21:54 redeploy triggered
+2026-07-19 10:31:00 tunnel unhealthy (530, 2x) — restarting + rewiring Vercel
+2026-07-19 10:31:00 starting cloudflared tunnel
+2026-07-19 10:31:16 tunnel URL: https://forwarding-thursday-importance-remedy.trycloudflare.com
+2026-07-19 10:31:16 pointing Vercel at https://forwarding-thursday-importance-remedy.trycloudflare.com and redeploying
+2026-07-19 10:31:26 redeploy triggered
+2026-07-19 11:42:40 tunnel unhealthy (530, 2x) — restarting + rewiring Vercel
+2026-07-19 11:42:40 starting cloudflared tunnel
+2026-07-19 11:43:09 tunnel URL: https://fda-genetic-transmit-motivation.trycloudflare.com
+2026-07-19 11:43:09 pointing Vercel at https://fda-genetic-transmit-motivation.trycloudflare.com and redeploying
+2026-07-19 11:43:16 redeploy triggered
+2026-07-19 12:42:26 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-19 12:42:26 starting cloudflared tunnel
+2026-07-19 13:06:43 tunnel URL: 
+2026-07-19 13:22:41 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-19 13:22:41 starting cloudflared tunnel
+2026-07-19 13:22:57 tunnel URL: https://ask-lodge-number-anatomy.trycloudflare.com
+2026-07-19 13:22:57 pointing Vercel at https://ask-lodge-number-anatomy.trycloudflare.com and redeploying
+2026-07-19 13:23:04 redeploy triggered
+2026-07-19 15:05:40 tunnel unhealthy (530, 2x) — restarting + rewiring Vercel
+2026-07-19 15:05:40 starting cloudflared tunnel
+2026-07-19 15:05:56 tunnel URL: https://jan-consolidation-colleague-river.trycloudflare.com
+2026-07-19 15:05:56 pointing Vercel at https://jan-consolidation-colleague-river.trycloudflare.com and redeploying
+2026-07-19 15:13:27 redeploy triggered
+2026-07-19 15:35:51 tunnel unhealthy (530, 2x) — restarting + rewiring Vercel
+2026-07-19 15:35:51 starting cloudflared tunnel
+2026-07-19 15:36:07 tunnel URL: https://nature-hospitality-nursing-discretion.trycloudflare.com
+2026-07-19 15:36:07 pointing Vercel at https://nature-hospitality-nursing-discretion.trycloudflare.com and redeploying
+2026-07-19 15:36:14 redeploy triggered
+2026-07-19 16:15:19 tunnel unhealthy (530, 2x) — restarting + rewiring Vercel
+2026-07-19 16:15:19 starting cloudflared tunnel
+2026-07-19 16:15:35 tunnel URL: https://rose-parliament-developmental-looked.trycloudflare.com
+2026-07-19 16:15:35 pointing Vercel at https://rose-parliament-developmental-looked.trycloudflare.com and redeploying
+2026-07-19 16:15:42 redeploy triggered
+2026-07-19 16:39:08 tunnel unhealthy (530, 2x) — restarting + rewiring Vercel
+2026-07-19 16:39:08 starting cloudflared tunnel
+2026-07-19 17:25:16 tunnel URL: 
+2026-07-19 17:27:31 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-19 17:27:31 starting cloudflared tunnel
+2026-07-19 17:47:19 tunnel URL: 
+2026-07-19 18:22:12 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-19 18:22:12 starting cloudflared tunnel
+2026-07-19 18:22:28 tunnel URL: https://amount-nicholas-sapphire-orlando.trycloudflare.com
+2026-07-19 18:22:28 pointing Vercel at https://amount-nicholas-sapphire-orlando.trycloudflare.com and redeploying
+2026-07-19 18:48:30 redeploy triggered
+2026-07-19 18:49:30 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-19 18:49:30 starting cloudflared tunnel
+2026-07-19 18:49:46 tunnel URL: Binary file /Users/srikrishnasingh/AG1 BB/PEESTOCKS/backend/logs/tunnel_keepalive.log matches
+2026-07-19 18:49:46 pointing Vercel at Binary file /Users/srikrishnasingh/AG1 BB/PEESTOCKS/backend/logs/tunnel_keepalive.log matches and redeploying
+2026-07-19 18:49:54 redeploy triggered
+2026-07-19 18:50:55 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-19 18:50:55 starting cloudflared tunnel
+2026-07-19 18:51:11 tunnel URL: https://meyer-perception-environment-oil.trycloudflare.com
+2026-07-19 18:51:11 pointing Vercel at https://meyer-perception-environment-oil.trycloudflare.com and redeploying
+2026-07-19 18:51:18 redeploy triggered
+2026-07-19 21:23:10 tunnel unhealthy (530, 2x) — restarting + rewiring Vercel
+2026-07-19 21:23:10 starting cloudflared tunnel
+2026-07-19 21:23:26 tunnel URL: https://awareness-goes-bbs-easier.trycloudflare.com
+2026-07-19 21:23:26 pointing Vercel at https://awareness-goes-bbs-easier.trycloudflare.com and redeploying
+2026-07-19 21:23:34 redeploy triggered
+2026-07-19 23:54:45 tunnel unhealthy (530, 2x) — restarting + rewiring Vercel
+2026-07-19 23:54:45 starting cloudflared tunnel
+2026-07-19 23:55:01 tunnel URL: https://denver-separated-fda-terrain.trycloudflare.com
+2026-07-19 23:55:01 pointing Vercel at https://denver-separated-fda-terrain.trycloudflare.com and redeploying
+2026-07-19 23:55:09 redeploy triggered
+2026-07-20 00:51:13 tunnel unhealthy (530, 2x) — restarting + rewiring Vercel
+2026-07-20 00:51:13 starting cloudflared tunnel
+2026-07-20 00:51:29 tunnel URL: 
+2026-07-20 00:52:29 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-20 00:52:29 starting cloudflared tunnel
+2026-07-20 00:52:45 tunnel URL: 
+2026-07-20 01:00:40 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-20 01:00:40 starting cloudflared tunnel
+2026-07-20 01:00:56 tunnel URL: 
+2026-07-20 01:01:56 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-20 01:01:56 starting cloudflared tunnel
+2026-07-20 01:36:50 tunnel URL: https://son-prayers-dirt-qualify.trycloudflare.com
+2026-07-20 01:36:50 pointing Vercel at https://son-prayers-dirt-qualify.trycloudflare.com and redeploying
+2026-07-20 03:25:29 redeploy triggered
+2026-07-20 03:41:55 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-20 03:41:55 starting cloudflared tunnel
+2026-07-20 04:14:56 tunnel URL: https://grand-considerable-reuters-medication.trycloudflare.com
+2026-07-20 04:14:56 pointing Vercel at https://grand-considerable-reuters-medication.trycloudflare.com and redeploying
+2026-07-20 04:47:40 redeploy triggered
+2026-07-20 05:40:19 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-20 05:40:19 starting cloudflared tunnel
+2026-07-20 06:29:12 tunnel URL: 
+2026-07-20 08:11:51 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-20 08:11:51 starting cloudflared tunnel
+2026-07-20 08:12:57 tunnel URL: https://ron-pushed-birthday-agreed.trycloudflare.com
+2026-07-20 08:12:57 pointing Vercel at https://ron-pushed-birthday-agreed.trycloudflare.com and redeploying
+2026-07-20 08:13:04 redeploy triggered
+2026-07-20 09:02:20 tunnel unhealthy (530, 2x) — restarting + rewiring Vercel
+2026-07-20 09:02:20 starting cloudflared tunnel
+2026-07-20 09:02:37 tunnel URL: https://independently-playback-advertisement-burner.trycloudflare.com
+2026-07-20 09:02:37 pointing Vercel at https://independently-playback-advertisement-burner.trycloudflare.com and redeploying
+2026-07-20 09:02:44 redeploy triggered
+2026-07-20 09:56:34 tunnel unhealthy (530, 2x) — restarting + rewiring Vercel
+2026-07-20 09:56:34 starting cloudflared tunnel
+2026-07-20 09:56:50 tunnel URL: https://developers-individually-markets-reel.trycloudflare.com
+2026-07-20 09:56:50 pointing Vercel at https://developers-individually-markets-reel.trycloudflare.com and redeploying
+2026-07-20 09:56:58 redeploy triggered
+2026-07-20 11:21:57 tunnel unhealthy (530, 2x) — restarting + rewiring Vercel
+2026-07-20 11:21:57 starting cloudflared tunnel
+2026-07-20 11:22:14 tunnel URL: https://inbox-bernard-endangered-convention.trycloudflare.com
+2026-07-20 11:22:14 pointing Vercel at https://inbox-bernard-endangered-convention.trycloudflare.com and redeploying
+2026-07-20 11:22:21 redeploy triggered
+2026-07-20 15:54:48 tunnel unhealthy (530, 2x) — restarting + rewiring Vercel
+2026-07-20 15:54:48 starting cloudflared tunnel
+2026-07-20 16:11:46 tunnel URL: 
+2026-07-20 16:32:08 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-20 16:32:08 starting cloudflared tunnel
+2026-07-20 16:33:14 tunnel URL: https://wanting-buyer-lists-taught.trycloudflare.com
+2026-07-20 16:33:14 pointing Vercel at https://wanting-buyer-lists-taught.trycloudflare.com and redeploying
+2026-07-20 17:25:41 redeploy triggered
+2026-07-20 17:59:47 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-20 17:59:47 starting cloudflared tunnel
+2026-07-20 18:00:03 tunnel URL: https://dream-board-cal-mug.trycloudflare.com
+2026-07-20 18:00:03 pointing Vercel at https://dream-board-cal-mug.trycloudflare.com and redeploying
+2026-07-20 18:00:14 redeploy triggered
+2026-07-20 18:34:41 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-20 18:34:41 starting cloudflared tunnel
+2026-07-20 18:51:24 tunnel URL: 
+2026-07-20 19:38:23 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-20 19:38:23 starting cloudflared tunnel
+2026-07-20 19:38:39 tunnel URL: https://nice-eagles-punch-sunny.trycloudflare.com
+2026-07-20 19:38:39 pointing Vercel at https://nice-eagles-punch-sunny.trycloudflare.com and redeploying
+2026-07-20 19:38:46 redeploy triggered
+2026-07-20 21:40:58 tunnel unhealthy (530, 2x) — restarting + rewiring Vercel
+2026-07-20 21:40:58 starting cloudflared tunnel
+2026-07-20 21:41:14 tunnel URL: 
+2026-07-20 21:42:15 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-20 21:42:15 starting cloudflared tunnel
+2026-07-20 21:42:31 tunnel URL: 
+2026-07-20 21:43:31 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-20 21:43:31 starting cloudflared tunnel
+2026-07-20 21:43:47 tunnel URL: https://dublin-others-tablets-examining.trycloudflare.com
+2026-07-20 21:43:47 pointing Vercel at https://dublin-others-tablets-examining.trycloudflare.com and redeploying
+2026-07-20 21:43:55 redeploy triggered
+2026-07-20 23:38:05 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-20 23:38:05 starting cloudflared tunnel
+2026-07-20 23:39:11 tunnel URL: https://adjustable-beliefs-persistent-techno.trycloudflare.com
+2026-07-20 23:39:11 pointing Vercel at https://adjustable-beliefs-persistent-techno.trycloudflare.com and redeploying
+2026-07-21 00:34:20 redeploy triggered
+2026-07-21 01:42:03 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-21 01:42:03 starting cloudflared tunnel
+2026-07-21 01:43:09 tunnel URL: https://contractor-assets-lexington-diesel.trycloudflare.com
+2026-07-21 01:43:09 pointing Vercel at https://contractor-assets-lexington-diesel.trycloudflare.com and redeploying
+2026-07-21 01:43:41 redeploy triggered
+2026-07-21 02:19:41 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-21 02:19:41 starting cloudflared tunnel
+2026-07-21 02:21:12 tunnel URL: https://treo-thriller-andy-differences.trycloudflare.com
+2026-07-21 02:21:12 pointing Vercel at https://treo-thriller-andy-differences.trycloudflare.com and redeploying
+2026-07-21 02:54:49 redeploy triggered
+2026-07-21 03:37:27 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-21 03:37:27 starting cloudflared tunnel
+2026-07-21 03:38:58 tunnel URL: https://headset-decide-affected-nov.trycloudflare.com
+2026-07-21 03:38:58 pointing Vercel at https://headset-decide-affected-nov.trycloudflare.com and redeploying
+2026-07-21 03:56:59 redeploy triggered
+2026-07-21 04:58:02 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-21 04:58:02 starting cloudflared tunnel
+2026-07-21 05:44:20 tunnel URL: 
+2026-07-21 06:04:40 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-21 06:04:40 starting cloudflared tunnel
+2026-07-21 06:22:52 tunnel URL: 
+2026-07-21 06:44:52 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-21 06:44:52 starting cloudflared tunnel
+2026-07-21 07:06:13 tunnel URL: 
+2026-07-21 07:27:30 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-21 07:27:30 starting cloudflared tunnel
+2026-07-21 07:29:01 tunnel URL: https://translation-toe-geographic-spears.trycloudflare.com
+2026-07-21 07:29:01 pointing Vercel at https://translation-toe-geographic-spears.trycloudflare.com and redeploying
+2026-07-21 07:43:29 redeploy triggered
+2026-07-21 07:44:30 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-21 07:44:30 starting cloudflared tunnel
+2026-07-21 07:44:46 tunnel URL: https://stands-seconds-essence-techno.trycloudflare.com
+2026-07-21 07:44:46 pointing Vercel at https://stands-seconds-essence-techno.trycloudflare.com and redeploying
+2026-07-21 07:44:53 redeploy triggered
+2026-07-21 09:17:57 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-21 09:17:57 starting cloudflared tunnel
+2026-07-21 09:26:27 tunnel URL: https://paying-oclc-release-measuring.trycloudflare.com
+2026-07-21 09:26:27 pointing Vercel at https://paying-oclc-release-measuring.trycloudflare.com and redeploying
+2026-07-21 09:26:35 redeploy triggered
+2026-07-21 10:49:49 tunnel unhealthy (530, 2x) — restarting + rewiring Vercel
+2026-07-21 10:49:49 starting cloudflared tunnel
+2026-07-21 10:50:05 tunnel URL: https://vector-skill-hardware-exclusive.trycloudflare.com
+2026-07-21 10:50:05 pointing Vercel at https://vector-skill-hardware-exclusive.trycloudflare.com and redeploying
+2026-07-21 12:34:12 redeploy triggered
+2026-07-21 13:13:31 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-21 13:13:31 starting cloudflared tunnel
+2026-07-21 13:14:11 tunnel URL: Binary file /Users/srikrishnasingh/AG1 BB/PEESTOCKS/backend/logs/tunnel_keepalive.log matches
+2026-07-21 13:14:12 pointing Vercel at Binary file /Users/srikrishnasingh/AG1 BB/PEESTOCKS/backend/logs/tunnel_keepalive.log matches and redeploying
+2026-07-21 13:14:19 redeploy triggered
+2026-07-21 13:49:16 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-21 13:49:16 starting cloudflared tunnel
+2026-07-21 13:49:45 tunnel URL: https://once-impact-projection-logs.trycloudflare.com
+2026-07-21 13:49:45 pointing Vercel at https://once-impact-projection-logs.trycloudflare.com and redeploying
+2026-07-21 13:49:56 redeploy triggered
+2026-07-21 14:30:36 tunnel unhealthy (530, 2x) — restarting + rewiring Vercel
+2026-07-21 14:30:36 starting cloudflared tunnel
+2026-07-21 14:30:52 tunnel URL: https://version-asp-purchased-construct.trycloudflare.com
+2026-07-21 14:30:52 pointing Vercel at https://version-asp-purchased-construct.trycloudflare.com and redeploying
+2026-07-21 14:30:59 redeploy triggered
+2026-07-21 16:17:40 tunnel unhealthy (530, 2x) — restarting + rewiring Vercel
+2026-07-21 16:17:40 starting cloudflared tunnel
+2026-07-21 16:52:23 tunnel URL: 
+2026-07-21 17:24:24 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-21 17:24:24 starting cloudflared tunnel
+2026-07-21 17:43:36 tunnel URL: 
+2026-07-21 19:10:00 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-21 19:10:00 starting cloudflared tunnel
+2026-07-21 19:25:41 tunnel URL: 
+2026-07-21 19:46:29 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-21 19:46:29 starting cloudflared tunnel
+2026-07-21 19:46:45 tunnel URL: https://vintage-stat-quarters-wrestling.trycloudflare.com
+2026-07-21 19:46:45 pointing Vercel at https://vintage-stat-quarters-wrestling.trycloudflare.com and redeploying
+2026-07-21 19:46:53 redeploy triggered
+2026-07-21 20:56:02 tunnel unhealthy (530, 2x) — restarting + rewiring Vercel
+2026-07-21 20:56:02 starting cloudflared tunnel
+2026-07-21 20:56:18 tunnel URL: https://starsmerchant-nursery-murphy-codes.trycloudflare.com
+2026-07-21 20:56:18 pointing Vercel at https://starsmerchant-nursery-murphy-codes.trycloudflare.com and redeploying
+2026-07-21 20:56:27 redeploy triggered
+2026-07-21 21:06:13 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-21 21:06:13 starting cloudflared tunnel
+2026-07-21 21:06:29 tunnel URL: 
+2026-07-21 21:07:29 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-21 21:07:29 starting cloudflared tunnel
+2026-07-21 21:07:45 tunnel URL: 
+2026-07-21 21:08:45 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-21 21:08:45 starting cloudflared tunnel
+2026-07-21 21:09:01 tunnel URL: 
+2026-07-21 21:10:01 tunnel unhealthy (000, 2x) — restarting + rewiring Vercel
+2026-07-21 21:10:01 starting cloudflared tunnel
+2026-07-21 21:10:17 tunnel URL: https://athens-allan-baghdad-strict.trycloudflare.com
+2026-07-21 21:10:17 pointing Vercel at https://athens-allan-baghdad-strict.trycloudflare.com and redeploying
+2026-07-21 21:10:27 redeploy triggered

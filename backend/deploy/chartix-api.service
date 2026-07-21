@@ -1,0 +1,26 @@
+[Unit]
+Description=Chartix FastAPI backend (uvicorn)
+After=network.target redis-server.service
+Wants=redis-server.service
+
+[Service]
+Type=simple
+User=chartix
+Group=chartix
+WorkingDirectory=/opt/chartix/backend
+EnvironmentFile=/opt/chartix/backend/.env
+# Bind to localhost only — Caddy terminates TLS and proxies to it. The backend is
+# never exposed directly to the internet.
+ExecStart=/opt/chartix/backend/venv/bin/uvicorn app.main:app --host 127.0.0.1 --port 8010 --workers 2
+Restart=always
+RestartSec=5
+# Defensive memory guards (this is what the Mac lacked). If a worker balloons,
+# systemd reins it in / restarts instead of OOM-killing the whole machine.
+MemoryHigh=6G
+MemoryMax=7G
+# Auto-restart on crash AND on reboot — replaces nohup + keepalive.sh entirely.
+StandardOutput=append:/opt/chartix/backend/logs/api.log
+StandardError=append:/opt/chartix/backend/logs/api.log
+
+[Install]
+WantedBy=multi-user.target

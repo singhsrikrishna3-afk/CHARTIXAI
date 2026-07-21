@@ -1,0 +1,453 @@
+/* ═══════════════════════════════════════════════════════════
+   PEESTOCK — Design System
+   ═══════════════════════════════════════════════════════════ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+:root {
+  /* ── Color Palette (Legacy Windows Light Theme) ──────────────────────────────────── */
+  --bg-primary: #F0F0F0;
+  --bg-secondary: #FFFFFF;
+  --bg-card: #FFFFFF;
+  --bg-card-hover: #E5E5E5;
+  --bg-glass: #FFFFFF;
+
+  --accent-primary: #0000FF;
+  --accent-primary-glow: rgba(0, 0, 255, 0.1);
+  --accent-secondary: #FF0000;
+  --accent-emerald: #008000;
+  --accent-emerald-glow: rgba(0, 128, 0, 0.1);
+  --accent-rose: #FF0000;
+  --accent-rose-glow: rgba(255, 0, 0, 0.1);
+  --accent-amber: #FFFF00;
+  --accent-cyan: #00FFFF;
+
+  --text-primary: #000000;
+  --text-secondary: #333333;
+  --text-muted: #666666;
+  --text-inverse: #FFFFFF;
+
+  --border-subtle: #D4D0C8;
+  --border-default: #808080;
+  --border-accent: #0000FF;
+
+  /* ── Gradients ───────────────────────────────────────────────────────── */
+  --gradient-hero: #F0F0F0;
+  --gradient-card: #FFFFFF;
+  --gradient-accent: #0000FF;
+  --gradient-profit: #008000;
+  --gradient-loss: #FF0000;
+
+  /* ── Typography (Legacy GUI Feel) ────────────────────────────────────── */
+  --font-sans: 'Tahoma', 'Arial', sans-serif;
+  --font-mono: 'Courier New', Courier, monospace;
+
+  /* ── Spacing (Sharp edges) ───────────────────────────────────────────── */
+  --radius-sm: 0px;
+  --radius-md: 0px;
+  --radius-lg: 0px;
+  --radius-xl: 0px;
+  --radius-full: 0px;
+
+  /* ── Shadows (Flat design) ───────────────────────────────────────────── */
+  --shadow-sm: none;
+  --shadow-md: none;
+  --shadow-lg: none;
+  --shadow-glow: none;
+
+  /* ── Transitions ─────────────────────────────────────────────────────── */
+  --ease-smooth: linear;
+}
+
+/* ── Reset & Base ──────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-sans);
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+a { color: inherit; text-decoration: none; }
+
+/* ── Scrollbar ─────────────────────────────────────────── */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: var(--bg-secondary); }
+::-webkit-scrollbar-thumb { background: var(--text-muted); border-radius: var(--radius-full); }
+::-webkit-scrollbar-thumb:hover { background: var(--text-secondary); }
+
+/* ── Utility Classes ───────────────────────────────────── */
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.glass {
+  background: var(--bg-glass);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid var(--border-subtle);
+}
+
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  transition: all 0.3s var(--ease-smooth);
+}
+
+.card:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--border-accent);
+  box-shadow: var(--shadow-glow);
+  transform: translateY(-2px);
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  border: none;
+  transition: all 0.25s var(--ease-smooth);
+  font-family: var(--font-sans);
+}
+
+.btn-primary {
+  background: var(--gradient-accent);
+  color: white;
+  box-shadow: var(--shadow-glow);
+}
+.btn-primary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 0 40px var(--accent-primary-glow);
+}
+
+.btn-outline {
+  background: transparent;
+  color: var(--text-primary);
+  border: 1px solid var(--border-default);
+}
+.btn-outline:hover {
+  border-color: var(--accent-primary);
+  background: rgba(99, 102, 241, 0.08);
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 10px;
+  border-radius: var(--radius-full);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.badge-green { background: var(--accent-emerald-glow); color: var(--accent-emerald); }
+.badge-red { background: var(--accent-rose-glow); color: var(--accent-rose); }
+.badge-blue { background: var(--accent-primary-glow); color: var(--accent-secondary); }
+
+/* ── Animations ────────────────────────────────────────── */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s var(--ease-smooth) forwards;
+}
+.animate-fade-in {
+  animation: fadeIn 0.4s var(--ease-smooth) forwards;
+}
+
+/* ── Section Headlines ─────────────────────────────────── */
+.section-label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent-primary);
+  margin-bottom: 8px;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 1.15;
+  background: var(--gradient-accent);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.section-subtitle {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  max-width: 600px;
+  line-height: 1.7;
+}
+
+/* ── Input Styles ──────────────────────────────────────── */
+.input {
+  width: 100%;
+  padding: 12px 16px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-default);
+  border-radius: var(--radius-md);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  transition: border-color 0.2s var(--ease-smooth);
+}
+.input:focus {
+  outline: none;
+  border-color: var(--accent-primary);
+  box-shadow: 0 0 0 3px var(--accent-primary-glow);
+}
+.input::placeholder { color: var(--text-muted); }
+
+/* ── Mono / Code ───────────────────────────────────────── */
+.mono { font-family: var(--font-mono); }
+
+.price-up { color: var(--accent-emerald); }
+.price-down { color: var(--accent-rose); }
+
+/* ═══════════════════════════════════════════════════════════
+   SCAN RESULT CARDS (KeyStocks-style grid with mini charts)
+   ═══════════════════════════════════════════════════════════ */
+
+.scan-results-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 8px;
+  padding: 8px 0;
+}
+
+.scan-result-card {
+  background: #FFFFFF;
+  border: 1px solid #C0C0C0;
+  cursor: pointer;
+  transition: border-color 0.1s, box-shadow 0.1s;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  font-family: 'Tahoma', 'Arial', sans-serif;
+}
+
+.scan-result-card:hover {
+  border-color: #0000FF;
+  box-shadow: 1px 1px 0 #0000FF;
+}
+
+.src-chart-wrap {
+  width: 100%;
+  height: 90px;
+  background: #FFFFFF;
+  border-bottom: 1px solid #D0D0D0;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.src-canvas {
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.src-no-chart {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7rem;
+  color: #999;
+}
+
+.src-info {
+  padding: 5px 7px 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.src-top-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px;
+}
+
+.src-symbol {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #0000CC;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+.src-symbol:hover { text-decoration: underline; }
+
+.src-badge {
+  font-size: 0.62rem;
+  font-weight: 700;
+  padding: 1px 5px;
+  border: 1px solid currentColor;
+  white-space: nowrap;
+}
+
+.src-name {
+  font-size: 0.68rem;
+  color: #555;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.src-prices {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  margin-top: 1px;
+}
+
+.src-close {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #000;
+  font-family: 'Courier New', monospace;
+}
+
+.src-change {
+  font-size: 0.72rem;
+  font-weight: 600;
+}
+.src-up   { color: #008000; }
+.src-down { color: #FF0000; }
+
+.src-signal {
+  font-size: 0.65rem;
+  color: #444;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.src-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2px;
+  gap: 4px;
+}
+
+.src-vol {
+  font-size: 0.62rem;
+  color: #666;
+  font-family: monospace;
+}
+
+.src-conf {
+  font-size: 0.62rem;
+  color: #0066CC;
+  font-family: monospace;
+}
+
+.src-chart-link {
+  font-size: 0.65rem;
+  color: #0000CC;
+  text-decoration: none;
+  font-weight: 700;
+  margin-left: auto;
+}
+.src-chart-link:hover { text-decoration: underline; }
+
+/* Scan results header bar */
+.scan-results-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 0 8px;
+  border-bottom: 1px solid #C0C0C0;
+  margin-bottom: 8px;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.scan-results-count {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #000;
+}
+
+.scan-results-meta {
+  font-size: 0.75rem;
+  color: #555;
+}
+
+.scan-view-toggle {
+  display: flex;
+  border: 1px solid #808080;
+}
+
+.scan-view-btn {
+  padding: 2px 10px;
+  font-size: 0.72rem;
+  cursor: pointer;
+  background: #F0F0F0;
+  border: none;
+  border-right: 1px solid #808080;
+  font-family: 'Tahoma', 'Arial', sans-serif;
+}
+.scan-view-btn:last-child { border-right: none; }
+.scan-view-btn.active {
+  background: #0000FF;
+  color: #FFFFFF;
+  font-weight: 700;
+}
+
+/* Export button */
+.scan-export-btn {
+  padding: 2px 10px;
+  font-size: 0.72rem;
+  cursor: pointer;
+  background: #F0F0F0;
+  border: 1px solid #808080;
+  font-family: 'Tahoma', 'Arial', sans-serif;
+  color: #000;
+}
+.scan-export-btn:hover { background: #E0E0E0; }
+

@@ -1,0 +1,19 @@
+<svg width="64" height="64" viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="chartixGradFav" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+  </defs>
+  <rect width="160" height="160" rx="36" fill="#0b1120"/>
+  <line x1="46" y1="40" x2="46" y2="120" stroke="#334155" stroke-width="4" stroke-linecap="round"/>
+  <line x1="114" y1="40" x2="114" y2="120" stroke="#334155" stroke-width="4" stroke-linecap="round"/>
+  <rect x="38" y="58" width="16" height="34" rx="3" fill="#ef4444"/>
+  <rect x="106" y="66" width="16" height="34" rx="3" fill="#10b981"/>
+  <path d="M50 112 L110 48" stroke="url(#chartixGradFav)" stroke-width="9" stroke-linecap="round"/>
+  <path d="M50 48 L110 112" stroke="url(#chartixGradFav)" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="50" cy="112" r="6" fill="#22d3ee"/>
+  <circle cx="110" cy="48" r="6" fill="#6366f1"/>
+  <circle cx="50" cy="48" r="6" fill="#6366f1"/>
+  <circle cx="110" cy="112" r="6" fill="#22d3ee"/>
+</svg>
