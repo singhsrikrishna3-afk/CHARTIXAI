@@ -277,6 +277,7 @@ async def _ensure_runtime_tables():
         logging.getLogger(__name__).warning("ensure_runtime_tables failed: %s", e)
 
 
+@app.get("/")
 @app.get("/api/health")
 async def health_check():
     return {"status": "ok", "app": settings.APP_NAME, "version": "0.2.0"}
